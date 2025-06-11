@@ -6,3 +6,10 @@ Apreciados oficiales bienvenidos a nuestro curso electivo. De manera similar a l
 con aprecio;
 
 **Jaider Ospina Navas**
+
+---
+# Prerequisitos.
+ - MV con kali linux (o cualquier distro similar) actualizada.
+ - Docker instalado en local o sobre su MV Kali Linux.
+ - Cuenta de github, debidamente configurada.
+ - **Ganas de construir saber desde el trabajo coaborativo e investigativo.**
