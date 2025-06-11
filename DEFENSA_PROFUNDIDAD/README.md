@@ -5,7 +5,7 @@ El modelo de **Defensa en Profundidad** es una estrategia de seguridad que se ba
 En el ámbito de la ciberseguridad, la idea es que **ninguna capa de seguridad es infalible**. Si un atacante logra superar una defensa (por ejemplo, un firewall), se encontrará con otra capa de seguridad que intentará detenerlo (como un sistema de detección de intrusos, cifrado de datos o controles de acceso).
 
 
-![](IMAGES/defensaprofundidad.jpg)
+  ![](/IMAGES/defensaprofundidad.jpg)
 
 Este modelo se enfoca en tres aspectos clave:
 
