@@ -11,5 +11,6 @@ con aprecio;
 # Prerequisitos.
  - MV con kali linux (o cualquier distro similar) actualizada.
  - Docker instalado en local o sobre su MV Kali Linux.
+ - Acceso ssh a MV.
  - Cuenta de github, debidamente configurada.
  - **Ganas de construir saber desde el trabajo coaborativo e investigativo.**
