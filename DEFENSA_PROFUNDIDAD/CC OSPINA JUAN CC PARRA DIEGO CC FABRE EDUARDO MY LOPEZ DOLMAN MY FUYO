@@ -1,47 +1,4 @@
 # **DEFENSA EN PROFUNDIDAD**
-Defensa en Profundidad: Fortaleza Digital de TechSolutions Corp.
-Contexto: TechSolutions Corp. es una empresa global líder en el desarrollo de software y servicios en la nube, con una base de clientes masiva y una vasta cantidad de datos sensibles, incluyendo información financiera, propiedad intelectual y datos personales de clientes. Su infraestructura de TI es compleja, abarcando centros de datos locales, entornos de nube híbrida (AWS y Azure), una red de oficinas distribuidas globalmente y una fuerza laboral remota significativa.
+# Defensa en Profundidad: Fortaleza Digital de TechSolutions Corp.
+# Contexto: TechSolutions Corp. es una empresa global líder en el desarrollo de software y servicios en la nube, con una base de clientes masiva y una vasta cantidad de datos sensibles, incluyendo información financiera, propiedad intelectual y datos personales de clientes. Su infraestructura de TI es compleja, abarcando centros de datos locales, entornos de nube híbrida (AWS y Azure), una red de oficinas distribuidas globalmente y una fuerza laboral remota significativa.
 El Incidente Es el 10 de junio de 2025. Su equipo como expertos en ciberseguridad ha detectado una serie de actividades anómalas:
-
-Fase 1 (Vectores de Ataque Iniciales):
-Múltiples empleados han recibido correos electrónicos de phishing altamente sofisticados, suplantando a la dirección de TI, solicitando credenciales de acceso a un "nuevo portal de empleados".
-Se ha identificado un intento de explotación de una vulnerabilidad de día cero en un servidor web público que ejecuta un software de gestión de proyectos obsoleto (versión no parcheada) dentro de la DMZ.
-Un empleado de reciente contratación descargó accidentalmente un archivo adjunto malicioso desde una red social profesional (LinkedIn) que se hizo pasar por una oferta de capacitación.
-Fase 2 (Movimiento Lateral y Persistencia):
-Parece que el atacante ha logrado comprometer una estación de trabajo de ingeniería de software a través del phishing exitoso, utilizando credenciales robadas.
-Desde esta estación de trabajo, se han observado intentos de escaneo de red interno y de elevación de privilegios.
-Hay indicios de que el atacante está intentando establecer persistencia mediante la creación de cuentas de usuario ocultas y la modificación de tareas programadas en algunos sistemas comprometidos.
-Fase 3 (Objetivo Final - Exfiltración/Destrucción):
-La actividad principal del atacante parece dirigirse a la base de datos de propiedad intelectual (ubicada en la nube) y a los servidores de desarrollo que contienen el código fuente de los productos estrella de la empresa.
-Se han detectado grandes volúmenes de tráfico saliente inusual hacia direcciones IP externas no identificadas.
-En algunos sistemas críticos, se han encontrado archivos con extensiones cifradas y notas de rescate, lo que evidencia una actividad de ransomware como un segundo vector de ataque o distracción.
-La Tarea: Como equipo de seguridad de TechSolutions Corp. su tarea es desarrollar una estrategia de defensa en profundidad integral para mitigar el impacto de este incidente y proteger a la empresa contra futuros ataques. No se trata solo de reaccionar al incidente actual, sino de establecer una arquitectura de seguridad resiliente.
-
-Instrucciones para los Estudiantes:
-Análisis de Amenazas y Vulnerabilidades: Identifiquen las principales amenazas y vulnerabilidades expuestas en la narrativa.
-Principios de Defensa en Profundidad: Expliquen cómo aplicarían los principios de defensa en profundidad (capas de seguridad) en este escenario.
-Capas de Defensa Propuestas: Diseñen una estrategia detallada de defensa en profundidad, especificando las medidas de seguridad y tecnologías clave en cada una de las siguientes capas:
-Capa 1: Perímetro/Red Externa
-Capa 2: Red Interna/Segmentación
-Capa 3: Endpoint/Dispositivos
-Capa 4: Aplicaciones
-Capa 5: Datos
-Capa 6: Identidad y Acceso
-Capa 7: Operaciones y Concienciación
-Respuesta al Incidente: Describan los pasos iniciales que tomarían para contener y erradicar el incidente actual basándose en su estrategia de defensa en profundidad.
-Monitoreo y Mejora Continua: ¿Cómo garantizarían que su estrategia de defensa en profundidad se mantenga efectiva a lo largo del tiempo?
-
-1. Análisis de Amenazas y Vulnerabilidades
-Amenazas identificadas:
-•	Phishing dirigido: con técnicas de ingeniería social, en el caso de los empleados que recibieron correos que suplantaban al departamento de TI, esta vulnerabilidad se presenta debido a que varios factores como, falta de educación a los usuarios del sistema asi mismo en los sistemas de correo electrónico no se contó con un sistema de Política de Seguridad de Contenido (CSP), el cual podría haber permitido identificar que los correos recibidos vienen de un dominio malicioso por lo cual no pudieron ser bloqueados a tiempo (no se mitigó seleccionando solo recibir información de dominios de confianza).
-
-•	Explotación de vulnerabilidad de día cero en software no parchado (servidor en DMZ). La vulnerabilidad allí presentada se dio debido a que se tenía un servidor conectado a la estructura de la empresa el cual se encontraba no parchado, es decir, actualizado con las ultimas correcciones a su sistema de seguridad, empeorando la situación, asi mismo este servidor se encontraba en una DMZ o zona desmilitarizada es decir que no contaba con la hardenización necesaria y los sistemas de seguridad requeridos para evitar una intrusión al sistema principal. Siendo mas crítico aun debido a que se encontró una vulnerabilidad de dia cero es decir que nunca había sido identificada y que pudo ser explotada por el atacante.
-
-•	Malware introducido mediante archivo adjunto malicioso debido a la falta de educación a los usuarios acerca de los riesgos en ciberseguridad y la amenaza de archivos maliciosos, eso se presentó debido a la falta de políticas que prohíban la realización de actividades personales a través de los correos institucionales asi como ya se nombró no había un sistema de Política de Seguridad de Contenido (CSP).
-Consecuencias 
-•	Movimiento lateral mediante escaneo interno y elevación de privilegios el atacante logró llegar a uno de los equipos de desarrollo de software esto a través de la generación de usuarios y claves de correo con el fin de identificar lograr privilegios de administrador.
-
-•	Persistencia a través de cuentas ocultas y tareas programadas el ciberatacante al parecer logró instalar malware con el fin de establecer una back door para tener comando y control sobre el equipo generando persistencia con el fin de poder llegar a su objetivo final que es la obtención de la información de las patentes tecnológicas.
-
-•	Exfiltración de datos sensibles y ransomware como táctica de distracción o doble extorsión 
-
