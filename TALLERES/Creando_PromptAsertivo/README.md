@@ -1,5 +1,7 @@
 # Laboratorio: Reto "Creando un Prompt Asertivo"
 
+**Taller En grupo**
+
 ## Objetivo
 
 El objetivo de este laboratorio es **crear, probar y documentar** un prompt efectivo que permita convertir un documento `.doc` (que contiene imágenes) en un archivo `README.md` listo para ser utilizado como el README principal de un repositorio en GitHub. El proceso debe incluir la extracción de imágenes y su correcta referencia en el archivo Markdown.
@@ -60,6 +62,7 @@ Crear un pequeño informe que incluya:
 3. **Carpeta `images/`** con las imágenes extraídas.
 4. **Documento de documentación** del proceso (puede ser un archivo `.md` o `.pdf`).
 
+NOTA: Crear una carpeta por grupo dentro la carpeta TRABAJOS de este subcarpeta. Relacionar el link como evidencia de entrega en blackboard  "Taller_Creando_Prompt"
 ---
 
 ## Criterios de Evaluación
@@ -104,7 +107,4 @@ Crear un pequeño informe que incluya:
 **Sugerencia adicional:** Es recomendable documentar los prompts probados y los resultados obtenidos para comparar cuál ofrece un mejor desempeño en función de los objetivos y criterios de evaluación.
 
 ---
-
-- [Guía de prompt engineering de Microsoft](https://learn.microsoft.com/es-es/azure/ai-services/openai/how-to/prompt-engineering)
-- [Prompting Guide AI](https://www.promptingguide.ai/es/guides/prompt-design)
 
