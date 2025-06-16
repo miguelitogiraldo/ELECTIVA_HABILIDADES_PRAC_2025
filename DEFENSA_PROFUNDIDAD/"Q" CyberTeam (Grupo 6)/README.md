@@ -16,7 +16,7 @@
 
 A lo largo del siguiente trabajo, exploraremos un enfoque integral para fortalecer nuestra postura de seguridad digital mediante capas superpuestas de protección.
 ---
-![amenazas](https://github.com/user-attachments/assets/a36aa81f-43d5-4f2c-9b77-398b82fe8a81) align="center"
+![amenazas](https://github.com/user-attachments/assets/a36aa81f-43d5-4f2c-9b77-398b82fe8a81)
 
 # :one:	Análisis de Amenazas y Vulnerabilidades
 
