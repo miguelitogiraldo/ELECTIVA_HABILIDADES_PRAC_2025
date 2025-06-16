@@ -129,8 +129,6 @@ Medidas Administrativas
 Programa de entrenamiento y ejercicios de concienciación (phishing simulation, capacitación periódica); auditorías y pruebas de penetración regulares (red teams, CTF internos); plan de respuesta a incidentes y continuidad de negocio (realizar simulacros con todo el equipo); revisión constante de políticas de seguridad y cumplimiento de estándares (ISO 27001, NIST CSF); evaluación de nuevos riesgos y tecnologías emergentes mediante informes de inteligencia de amenazas y participación en comunidades de seguridad. Según diversos expertos, la mejora continua de la estrategia de defensa (incorporando lecciones de incidentes previos) es esencial
 
 ---
-![image](https://github.com/user-attachments/assets/456392bd-2c00-42a4-ad96-9c35112ebbe2)
-
 ![Imagen de WhatsApp 2025-06-16 a las 13 36 03_830e16d6](https://github.com/user-attachments/assets/4d9ee9b8-21bc-4eb5-93fb-fd3ee8954634)
 
 # :four:	Respuesta al Incidente (10 de junio de 2025)
