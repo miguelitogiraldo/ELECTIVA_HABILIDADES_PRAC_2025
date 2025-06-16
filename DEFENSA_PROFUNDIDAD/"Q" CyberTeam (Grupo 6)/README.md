@@ -5,7 +5,7 @@
 # <p align="center">Grupo :shipit::computer:**"Q" CYBERTEAM**:computer::shipit: </p>
 
 <p align="center">
-  <img src="IMAGENES/CYBERATTACK.png">
+  <img src="Imágenes/Imagenes/QCYBERTEAM.png">
 </p>
 
 ![Cyber](https://i.gifer.com/origin/46/46400cbacaf8eb1b36a89cdcd7da6740_w200.webp) ![Cyber](https://i.gifer.com/origin/5a/5ab98406cc6c8fbba9ddb014c2bcdb80_w200.webp)
