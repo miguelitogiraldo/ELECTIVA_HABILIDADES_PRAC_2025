@@ -38,6 +38,8 @@ Las vulnerabilidades explotadas incluyen la falta de concienciación del persona
 •	Deficiencias en monitoreo y detección: La ausencia de registros detallados y correlación de eventos limita la capacidad de detectar y contener ataques, como alerta NIST SP 800-92.
 Normas de referencia: NIST SP 800-30, 40, 63B, 92, 207; ISO/IEC 27005, OWASP (Open Worldwide Application Security Project) Top 10.
 
+---
+
 # :two:	Principios de Defensa en Profundidad
 
 La defensa en profundidad busca capas superpuestas de controles de seguridad para que la falla de uno no comprometa todo el sistema. La implementación de múltiples productos y prácticas de seguridad puede ayudar a detectar y prevenir ataques a medida que van surgiendo, permitiendo mitigar eficazmente una amplia gama de amenazas.
@@ -56,6 +58,8 @@ En la práctica, TechSolutions debe aplicar controles físicos, técnicos y admi
 **2.6.	Cultura y procesos:** Además de soluciones técnicas, la concienciación del personal y procedimientos claros (políticas de seguridad, planes de respuesta) son capas defensivas críticas. La formación continua y auditorías internas aseguran que las medidas técnicas funcionen correctamente y que el equipo sepa cómo reaccionar ante incidentes.
 
 *Normas de referencia: NIST SP 800-53 Rev. 5, 207, 137, 34; CIS Controls v8; ISO/IEC 27001, 27031.*
+
+---
 
 # :three:	Capas de Defensa Propuestas
 
@@ -121,6 +125,8 @@ Medidas Técnicas
 Medidas Administrativas
 Programa de entrenamiento y ejercicios de concienciación (phishing simulation, capacitación periódica); auditorías y pruebas de penetración regulares (red teams, CTF internos); plan de respuesta a incidentes y continuidad de negocio (realizar simulacros con todo el equipo); revisión constante de políticas de seguridad y cumplimiento de estándares (ISO 27001, NIST CSF); evaluación de nuevos riesgos y tecnologías emergentes mediante informes de inteligencia de amenazas y participación en comunidades de seguridad. Según diversos expertos, la mejora continua de la estrategia de defensa (incorporando lecciones de incidentes previos) es esencial
 
+---
+
 # :four:	Respuesta al Incidente (10 de junio de 2025)
 
 **4.1.	Contención:**
@@ -139,6 +145,8 @@ Programa de entrenamiento y ejercicios de concienciación (phishing simulation, 
 •	Reintegración por etapas: Se aplica el enfoque de zonas seguras (clean zone) para reincorporar progresivamente los sistemas, priorizando servicios críticos con base en análisis de impacto al negocio (ISO/IEC 27005).
 Normas: NIST SP 800-61 Rev. 2, NIST SP 800-40, NIST SP 800-63B, ISO/IEC 27035, 27031.
 
+---
+
 # :five:	Monitoreo y Mejora Continua
 
 •	Ciclo PDCA (Planificar-Hacer-Verificar-Actuar): Aplicado mediante un programa de gestión de seguridad documentado. Se definen objetivos de control, se implementan, se auditan (internamente con ISO/IEC 27001 A.18.2.2) y se corrigen desviaciones.
@@ -156,6 +164,8 @@ Normas: NIST SP 800-61 Rev. 2, NIST SP 800-40, NIST SP 800-63B, ISO/IEC 27035, 2
 •	Threat Intelligence: Integrar fuentes de inteligencia sobre amenazas (por ejemplo CISA, CERTs, plataformas de inteligencia de código abierto) en el SOC/SIEM para ajustar defensas según actores conocidos. Analizar patrones de ataques recientes (e.g. campañas de ransomware) ayuda a actualizar firmas y políticas (IPS, EDR, filtros de correo)
 
 *Normas: NIST CSF, ISO/IEC 27004, ISO/IEC 27001 A.18, NIST SP 800-115, NIST SP 800-150.*
+
+---
 
 # :orange_book::closed_book::green_book:Bibliografía Normativa Utilizada::computer::smiling_imp::neckbeard:
 
