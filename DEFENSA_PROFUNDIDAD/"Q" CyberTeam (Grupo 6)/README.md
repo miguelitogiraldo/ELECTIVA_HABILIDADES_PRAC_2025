@@ -140,11 +140,17 @@ Normas: NIST SP 800-61 Rev. 2, NIST SP 800-40, NIST SP 800-63B, ISO/IEC 27035, 2
 # 5.	Monitoreo y Mejora Continua
 
 •	Ciclo PDCA (Planificar-Hacer-Verificar-Actuar): Aplicado mediante un programa de gestión de seguridad documentado. Se definen objetivos de control, se implementan, se auditan (internamente con ISO/IEC 27001 A.18.2.2) y se corrigen desviaciones.
+
 •	Auditorías periódicas: Se efectúan evaluaciones técnicas y de cumplimiento trimestrales, conforme con NIST CSF (Marco de Ciberseguridad) función "Detect" y control ISO/IEC 27001 A.18.2.3.
+
 •	Ejercicios Red/Blue Team: Simulaciones ofensivas/defensivas con reportes post mortem documentados. Alineado con NIST SP 800-115 (Technical Guide to Information Security Testing).
+
 •	Métricas de desempeño: Uso de KPIs (Indicadores Clave de Desempeño) y KRIs (Indicadores Clave de Riesgo) para evaluar efectividad. Ej: tiempo medio de detección (MTTD), tiempo medio de respuesta (MTTR), conforme a ISO/IEC 27004.
+
 •	Integración de CTI e IoCs: Consumo de feeds STIX/TAXII para enriquecer la detección con amenazas externas. Procesos respaldados por NIST SP 800-150 (Guide to Cyber Threat Information Sharing).
+
 •	Entrenamiento continuo: Programas de formación periódica y simulacros de phishing refuerzan la concienciación del personal. La cultura de seguridad se fortalece con campañas internas (boletines, talleres) y recordatorios de protocolos. El factor humano es crítico en casi tres cuartas partes de los ataques, por lo que el entrenamiento debe ser recurrente y actualizado con ejemplos reales.
+
 •	Threat Intelligence: Integrar fuentes de inteligencia sobre amenazas (por ejemplo CISA, CERTs, plataformas de inteligencia de código abierto) en el SOC/SIEM para ajustar defensas según actores conocidos. Analizar patrones de ataques recientes (e.g. campañas de ransomware) ayuda a actualizar firmas y políticas (IPS, EDR, filtros de correo)
 
 *Normas: NIST CSF, ISO/IEC 27004, ISO/IEC 27001 A.18, NIST SP 800-115, NIST SP 800-150.*
