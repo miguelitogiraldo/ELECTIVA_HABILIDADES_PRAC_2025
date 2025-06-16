@@ -17,7 +17,9 @@ A lo largo del siguiente trabajo, exploraremos un enfoque integral para fortalec
 ![Cyber](https://i.gifer.com/origin/46/46400cbacaf8eb1b36a89cdcd7da6740_w200.webp)
 ![Cyber](https://i.gifer.com/origin/5a/5ab98406cc6c8fbba9ddb014c2bcdb80_w200.webp)
 
-# 1.	Análisis de Amenazas y Vulnerabilidades
+---
+
+# :one:	Análisis de Amenazas y Vulnerabilidades
 
 Las vulnerabilidades explotadas incluyen la falta de concienciación del personal, filtros de correo insuficientes (spam, DMARC), ausencia de mecanismos de doble factor (MFA) y contraseñas débiles. Según informes, alrededor del 74 % de los ataques comienzan por errores humanos, por ejemplo dar clic en enlaces maliciosos, por lo que la carencia de formación y controles antiphishing es crítica.
 
@@ -36,7 +38,7 @@ Las vulnerabilidades explotadas incluyen la falta de concienciación del persona
 •	Deficiencias en monitoreo y detección: La ausencia de registros detallados y correlación de eventos limita la capacidad de detectar y contener ataques, como alerta NIST SP 800-92.
 Normas de referencia: NIST SP 800-30, 40, 63B, 92, 207; ISO/IEC 27005, OWASP (Open Worldwide Application Security Project) Top 10.
 
-# 2.	Principios de Defensa en Profundidad
+# :two:	Principios de Defensa en Profundidad
 
 La defensa en profundidad busca capas superpuestas de controles de seguridad para que la falla de uno no comprometa todo el sistema. La implementación de múltiples productos y prácticas de seguridad puede ayudar a detectar y prevenir ataques a medida que van surgiendo, permitiendo mitigar eficazmente una amplia gama de amenazas.
 En la práctica, TechSolutions debe aplicar controles físicos, técnicos y administrativos en cada nivel de su infraestructura (perímetro, red interna, endpoints, aplicaciones, datos, identidad, operaciones).
@@ -55,7 +57,7 @@ En la práctica, TechSolutions debe aplicar controles físicos, técnicos y admi
 
 *Normas de referencia: NIST SP 800-53 Rev. 5, 207, 137, 34; CIS Controls v8; ISO/IEC 27001, 27031.*
 
-# 3.	Capas de Defensa Propuestas
+# :three:	Capas de Defensa Propuestas
 
 **3.1.	Capa 1: Perímetro/Red Externa**
 Medidas Técnicas
@@ -119,7 +121,7 @@ Medidas Técnicas
 Medidas Administrativas
 Programa de entrenamiento y ejercicios de concienciación (phishing simulation, capacitación periódica); auditorías y pruebas de penetración regulares (red teams, CTF internos); plan de respuesta a incidentes y continuidad de negocio (realizar simulacros con todo el equipo); revisión constante de políticas de seguridad y cumplimiento de estándares (ISO 27001, NIST CSF); evaluación de nuevos riesgos y tecnologías emergentes mediante informes de inteligencia de amenazas y participación en comunidades de seguridad. Según diversos expertos, la mejora continua de la estrategia de defensa (incorporando lecciones de incidentes previos) es esencial
 
-# 4.	Respuesta al Incidente (10 de junio de 2025)
+# :four:	Respuesta al Incidente (10 de junio de 2025)
 
 **4.1.	Contención:**
 •	Aislamiento de máquinas afectadas: Se realiza mediante políticas de red en switches y firewalls para cortar la conectividad de dispositivos sospechosos, utilizando capacidades NAC (Control de Acceso a la Red) y EDR (Detección y Respuesta en el Endpoint).
@@ -137,7 +139,7 @@ Programa de entrenamiento y ejercicios de concienciación (phishing simulation, 
 •	Reintegración por etapas: Se aplica el enfoque de zonas seguras (clean zone) para reincorporar progresivamente los sistemas, priorizando servicios críticos con base en análisis de impacto al negocio (ISO/IEC 27005).
 Normas: NIST SP 800-61 Rev. 2, NIST SP 800-40, NIST SP 800-63B, ISO/IEC 27035, 27031.
 
-# 5.	Monitoreo y Mejora Continua
+# :five:	Monitoreo y Mejora Continua
 
 •	Ciclo PDCA (Planificar-Hacer-Verificar-Actuar): Aplicado mediante un programa de gestión de seguridad documentado. Se definen objetivos de control, se implementan, se auditan (internamente con ISO/IEC 27001 A.18.2.2) y se corrigen desviaciones.
 
@@ -155,7 +157,7 @@ Normas: NIST SP 800-61 Rev. 2, NIST SP 800-40, NIST SP 800-63B, ISO/IEC 27035, 2
 
 *Normas: NIST CSF, ISO/IEC 27004, ISO/IEC 27001 A.18, NIST SP 800-115, NIST SP 800-150.*
 
-# Bibliografía Normativa Utilizada:
+# :orange_book::closed_book::green_book:Bibliografía Normativa Utilizada::computer::smiling_imp::neckbeard:
 
 •	NIST SP 800 Series (30, 40, 53, 61, 63, 92, 111, 115, 137, 150, 207, 218, 34).
 •	ISO/IEC 27000 Series (27001, 27002, 27004, 27005, 27031, 27035, 27040).
