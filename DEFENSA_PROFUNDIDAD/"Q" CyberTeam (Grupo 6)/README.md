@@ -18,6 +18,7 @@
 
 A lo largo del siguiente trabajo, exploraremos un enfoque integral para fortalecer nuestra postura de seguridad digital mediante capas superpuestas de protección.
 ---
+![amenazas](https://github.com/user-attachments/assets/a36aa81f-43d5-4f2c-9b77-398b82fe8a81)
 
 # :one:	Análisis de Amenazas y Vulnerabilidades
 
@@ -39,6 +40,7 @@ Las vulnerabilidades explotadas incluyen la falta de concienciación del persona
 Normas de referencia: NIST SP 800-30, 40, 63B, 92, 207; ISO/IEC 27005, OWASP (Open Worldwide Application Security Project) Top 10.
 
 ---
+![2](https://github.com/user-attachments/assets/ce0c0d68-d3ac-4295-9450-e6aa4efeddba)
 
 # :two:	Principios de Defensa en Profundidad
 
@@ -60,6 +62,7 @@ En la práctica, TechSolutions debe aplicar controles físicos, técnicos y admi
 *Normas de referencia: NIST SP 800-53 Rev. 5, 207, 137, 34; CIS Controls v8; ISO/IEC 27001, 27031.*
 
 ---
+![image](https://github.com/user-attachments/assets/526ce61b-b306-413d-98a4-548a1ef488ab)
 
 # :three:	Capas de Defensa Propuestas
 
@@ -126,6 +129,9 @@ Medidas Administrativas
 Programa de entrenamiento y ejercicios de concienciación (phishing simulation, capacitación periódica); auditorías y pruebas de penetración regulares (red teams, CTF internos); plan de respuesta a incidentes y continuidad de negocio (realizar simulacros con todo el equipo); revisión constante de políticas de seguridad y cumplimiento de estándares (ISO 27001, NIST CSF); evaluación de nuevos riesgos y tecnologías emergentes mediante informes de inteligencia de amenazas y participación en comunidades de seguridad. Según diversos expertos, la mejora continua de la estrategia de defensa (incorporando lecciones de incidentes previos) es esencial
 
 ---
+![image](https://github.com/user-attachments/assets/456392bd-2c00-42a4-ad96-9c35112ebbe2)
+
+![Imagen de WhatsApp 2025-06-16 a las 13 36 03_830e16d6](https://github.com/user-attachments/assets/4d9ee9b8-21bc-4eb5-93fb-fd3ee8954634)
 
 # :four:	Respuesta al Incidente (10 de junio de 2025)
 
@@ -146,6 +152,7 @@ Programa de entrenamiento y ejercicios de concienciación (phishing simulation, 
 Normas: NIST SP 800-61 Rev. 2, NIST SP 800-40, NIST SP 800-63B, ISO/IEC 27035, 27031.
 
 ---
+![image](https://github.com/user-attachments/assets/cdfc4bfe-0e53-44c3-a5be-1bf66f8ae269)
 
 # :five:	Monitoreo y Mejora Continua
 
