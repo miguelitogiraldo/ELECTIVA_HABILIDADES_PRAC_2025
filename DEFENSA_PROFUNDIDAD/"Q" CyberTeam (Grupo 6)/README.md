@@ -170,9 +170,14 @@ Normas: NIST SP 800-61 Rev. 2, NIST SP 800-40, NIST SP 800-63B, ISO/IEC 27035, 2
 # :orange_book::closed_book::green_book:Bibliografía Normativa Utilizada::computer::smiling_imp::neckbeard:
 
 •	NIST SP 800 Series (30, 40, 53, 61, 63, 92, 111, 115, 137, 150, 207, 218, 34).
+
 •	ISO/IEC 27000 Series (27001, 27002, 27004, 27005, 27031, 27035, 27040).
+
 •	CIS Controls v8.
+
 •	OWASP Top 10, ASVS, SSDF.
+
 •	MITRE ATT&CK Framework.
-Este plan técnico integral fortalece la postura de ciberresiliencia de TechSolutions Corp. mediante la implementación estructurada de controles de defensa en profundidad con base en estándares internacionales y mejores prácticas de la industria.
+
+**Este plan técnico integral fortalece la postura de ciberresiliencia de TechSolutions Corp. mediante la implementación estructurada de controles de defensa en profundidad con base en estándares internacionales y mejores prácticas de la industria.**
 
