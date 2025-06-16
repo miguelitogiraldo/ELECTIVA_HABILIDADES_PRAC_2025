@@ -12,11 +12,11 @@
 - [X] MY. MANUEL REY :boom::tractor:
 - [X] MY. ARTURO MAHECHA :boom::tractor:
 
-![Cyber](https://i.gifer.com/origin/46/46400cbacaf8eb1b36a89cdcd7da6740_w200.webp) ![Cyber](https://i.gifer.com/origin/5a/5ab98406cc6c8fbba9ddb014c2bcdb80_w200.webp)align="center"
+![Cyber](https://i.gifer.com/origin/46/46400cbacaf8eb1b36a89cdcd7da6740_w200.webp) ![Cyber](https://i.gifer.com/origin/5a/5ab98406cc6c8fbba9ddb014c2bcdb80_w200.webp)
 
 A lo largo del siguiente trabajo, exploraremos un enfoque integral para fortalecer nuestra postura de seguridad digital mediante capas superpuestas de protección.
 ---
-![amenazas](https://github.com/user-attachments/assets/a36aa81f-43d5-4f2c-9b77-398b82fe8a81)
+![amenazas](https://github.com/user-attachments/assets/a36aa81f-43d5-4f2c-9b77-398b82fe8a81) align="center"
 
 # :one:	Análisis de Amenazas y Vulnerabilidades
 
