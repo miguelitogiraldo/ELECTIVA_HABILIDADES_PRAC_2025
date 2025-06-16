@@ -1,6 +1,6 @@
 # **<p align="center">:imp::rotating_light::skull:DEFENSA EN PROFUNDIDAD:skull::rotating_light::imp:</p>**
 # **<p align="center">:warning: FORTALEZA DIGITAL DE TECHSOLUTIONS CORP. :warning:</p>**
-![EQUIPO DE HACKING ÉTICO MGOT](https://media.licdn.com/dms/image/v2/D4E12AQGtgZUaecTDtg/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1704959664316?e=2147483647&v=beta&t=PovZR5gg6Mznz1sZ-ErCfzXwaOfQl0qAr_ZpUeM_YBM)align="center"
+<![EQUIPO DE HACKING ÉTICO MGOT](https://media.licdn.com/dms/image/v2/D4E12AQGtgZUaecTDtg/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1704959664316?e=2147483647&v=beta&t=PovZR5gg6Mznz1sZ-ErCfzXwaOfQl0qAr_ZpUeM_YBM)align="center">
 
 # <p align="center">Grupo :shipit::computer:**"Q" CYBERTEAM**:computer::shipit: </p>
 
