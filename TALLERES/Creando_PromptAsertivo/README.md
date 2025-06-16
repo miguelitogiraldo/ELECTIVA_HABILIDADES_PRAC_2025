@@ -62,7 +62,9 @@ Crear un pequeño informe que incluya:
 3. **Carpeta `images/`** con las imágenes extraídas.
 4. **Documento de documentación** del proceso (puede ser un archivo `.md` o `.pdf`).
 
-NOTA: Crear una carpeta por grupo dentro la carpeta TRABAJOS de este subcarpeta. Relacionar el link como evidencia de entrega en blackboard  "Taller_Creando_Prompt"
+NOTAS: 
+- Crear una carpeta por grupo dentro la carpeta TRABAJOS de este subcarpeta. 
+- Relacionar de manera indicvidual el link como evidencia de entrega en blackboard  en la actividad "Taller_Creando_Prompt"  contenida en **Actividades de evaluación -->  Primer 30 %** 
 ---
 
 ## Criterios de Evaluación
