@@ -1,7 +1,7 @@
-** # Defensa en Profundidad: Fortaleza Digital de TechSolutions Corp # **
+ # Defensa en Profundidad: Fortaleza Digital de TechSolutions Corp # 
 
 # Presentado por: #
-  CC OSPINA JUAN
+ ** CC OSPINA JUAN **
   CC PARRA DIEGO
   MY DOLMAN LOPEZ
   MY LATORRE LUIS
