@@ -36,4 +36,4 @@ El ciberatacante al parecer logró instalar malware con el fin de establecer una
 Táctica de distracción o doble extorsión 
 
 
-<img src="/Users/diegoparra/Documents/GITHUB/Imagen 1.png">
+<img src="/Users/diegoparra/Documents/GITHUB/1.png">
