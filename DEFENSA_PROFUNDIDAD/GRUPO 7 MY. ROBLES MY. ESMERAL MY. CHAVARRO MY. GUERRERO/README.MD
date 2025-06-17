@@ -10,9 +10,9 @@ My. Guerrero Cortes Alex Danny
 
 My. Robles Ocampo Edna Giannine
 
-Mando y Liderazgo
+Electiva Habilidades prácticas
 
-TC. Juan Manuel Navia López
+Jaider Ospina
 
 Curso de Estado Mayor 2025
 
