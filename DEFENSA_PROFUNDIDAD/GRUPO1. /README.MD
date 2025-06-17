@@ -34,4 +34,4 @@ El ciberatacante al parecer logró instalar malware con el fin de establecer una
 
 # Exfiltración de datos sensibles y ransomware # 
 Táctica de distracción o doble extorsión 
-![(/Users/diegoparra/Documents/GITHUB)]
+![(/Users/diegoparra/Documents/GITHUB/imagen.png)]
