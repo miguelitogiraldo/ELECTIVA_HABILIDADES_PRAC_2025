@@ -14,7 +14,7 @@ TechSolutions Corp. es una empresa global líder en el desarrollo de software y 
 El Incidente Es el 10 de junio de 2025. Su equipo como expertos en ciberseguridad ha detectado una serie de actividades anómalas:
 
 # 1. Análisis de Amenazas y Vulnerabilidades #
-Amenazas identificadas:
+# Amenazas identificadas: #
 # Phishing dirigido con técnicas de ingeniería social # 
 En el caso de los empleados que recibieron correos que suplantaban al departamento de TI, esta vulnerabilidad se presenta debido a que varios factores como, falta de educación a los usuarios del sistema asi mismo en los sistemas de correo electrónico no se contó con un sistema de Política de Seguridad de Contenido (CSP), el cual podría haber permitido identificar que los correos recibidos vienen de un dominio malicioso por lo cual no pudieron ser bloqueados a tiempo (no se mitigó seleccionando solo recibir información de dominios de confianza).
 
