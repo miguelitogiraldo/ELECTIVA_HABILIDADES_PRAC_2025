@@ -77,9 +77,6 @@ Principios clave:
 
 -   Educación y concienciación continua.
 
-```{=html}
-<!-- -->
-```
 -   Capas múltiples de seguridad: Aplicar barreras en todas las etapas
     del modelo OSI (de la capa 1 a la 7).
 
