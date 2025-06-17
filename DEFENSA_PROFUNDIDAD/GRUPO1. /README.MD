@@ -34,4 +34,4 @@ El ciberatacante al parecer logró instalar malware con el fin de establecer una
 
 # Exfiltración de datos sensibles y ransomware # 
 Táctica de distracción o doble extorsión 
-![(imagen1.png)]
+![](imagen1.png)
