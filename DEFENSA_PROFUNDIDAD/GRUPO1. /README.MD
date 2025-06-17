@@ -35,5 +35,5 @@ El ciberatacante al parecer logró instalar malware con el fin de establecer una
 # Exfiltración de datos sensibles y ransomware # 
 Táctica de distracción o doble extorsión 
 
-
-
+![CIBER](https://www.responsabilidadconsejerosydirectivos.com/wp-content/uploads/2021/02/ciber-1100x640@2x.jpg)
+<img src="/Users/diegoparra/Documents/GITHUB/Imagen 1.png">
