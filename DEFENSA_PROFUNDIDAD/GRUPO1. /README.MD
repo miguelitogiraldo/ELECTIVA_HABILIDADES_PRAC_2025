@@ -2,12 +2,12 @@
 
 # Presentado por: #
 
- **CC OSPINA JUAN**
- **CC PARRA DIEGO**
- **MY DOLMAN LOPEZ**
- **MY LATORRE LUIS**
- **MY FUYO GIOVANNI**
- **CC FABRE EDUARDO**
+ * CC OSPINA JUAN
+ * CC PARRA DIEGO
+ * MY DOLMAN LOPEZ
+ * MY LATORRE LUIS 
+ * MY FUYO GIOVANNI
+ * CC FABRE EDUARDO
 
 
 # Contexto #
@@ -36,4 +36,4 @@ El ciberatacante al parecer logró instalar malware con el fin de establecer una
 Táctica de distracción o doble extorsión 
 
 
-<img src="Users/diegoparra/Documents/GITHUB/Imagen 1.png">
+
