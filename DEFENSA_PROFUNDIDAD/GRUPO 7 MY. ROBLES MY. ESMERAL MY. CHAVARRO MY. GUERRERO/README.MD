@@ -318,7 +318,7 @@ los activos informáticos.
 **\
 **
 
-# Bibliografía {#bibliografía .unnumbered}
+# Bibliografía
 
 Instituto Nacional de Estándares y Tecnología. (2018). Computer Security
 Incident Handling Guide (NIST SP 800-61 Rev. 2).
