@@ -1,6 +1,6 @@
 Escuela Superior de Guerra 'General Rafael Reyes Prieto'
 
-Defensa en Profundidad: Fortaleza Digital de \"TechSolutions Corp.\"
+"Defensa en Profundidad: Fortaleza Digital de \"TechSolutions Corp.\"
 
 My. Chavarro Gutiérrez Luis Alberto
 
