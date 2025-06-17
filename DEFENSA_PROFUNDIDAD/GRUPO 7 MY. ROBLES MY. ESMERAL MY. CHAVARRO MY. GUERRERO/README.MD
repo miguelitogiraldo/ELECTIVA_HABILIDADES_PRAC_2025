@@ -18,7 +18,7 @@ Curso de Estado Mayor 2025
 
 15 de Junio de 2025
 
-# Defensa en Profundidad: Fortaleza Digital de \"TechSolutions Corp.\" {#defensa-en-profundidad-fortaleza-digital-de-techsolutions-corp. .unnumbered}
+# Defensa en Profundidad: Fortaleza Digital de \"TechSolutions Corp.\"
 
 **Resumen del Incidente**
 
