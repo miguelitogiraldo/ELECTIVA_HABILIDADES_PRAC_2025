@@ -1,4 +1,4 @@
-<Center>Escuela Superior de Guerra 'General Rafael Reyes Prieto'</Center>
+<Center>Escuela Superior de Guerra 'General Rafael Reyes Prieto'
 
 "Defensa en Profundidad: Fortaleza Digital de \"TechSolutions Corp.\"
 
