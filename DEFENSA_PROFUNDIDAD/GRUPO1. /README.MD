@@ -140,15 +140,15 @@ o	A partes interesadas internas, clientes afectados y autoridades regulatorias s
 
 
 # Referencias Bibliográficas Actualizadas#
-* 1.	Check Point. (2023). ¿Qué es la Defensa en Profundidad? https://www.checkpoint.com/es/cyber-hub/cyber-security/what-is-defense-in-depth/ 12
-* 2.	Kaspersky. (2025). Vulnerabilidades y ataques de día cero. https://latam.kaspersky.com/resource-center/definitions/zero-day-exploit 13
-* 3.	Cloudflare. (2025). ¿Qué es la defensa en profundidad? https://www.cloudflare.com/es-es/learning/security/glossary/what-is-defense-in-depth/ 2
-* 4.	Microsoft. (2025). Respuesta a incidentes. https://www.microsoft.com/es-co/security/business/security-101/what-is-incident-response/ 8
-* 5.	Fortinet. (2023). Defensa en profundidad. https://www.fortinet.com/lat/resources/cyberglossary/defense-in-depth 3
-* 6.	PMG SSI. (2015). Componentes de la defensa en profundidad. https://www.pmg-ssi.com/2015/01/iso-27001-componentes-de-la-defensa-en-profundidad/ 4
-* 7.	Check Point. (2024). Fases de respuesta a incidentes. https://www.checkpoint.com/es/cyber-hub/cyber-security/what-is-incident-response/the-6-phases-of-an-incident-response-plan/ 7
-* 8.	EasyDMARC. (2025). Cómo detener el ransomware. https://easydmarc.com/blog/es/como-detener-el-ransomware-en-tiempo-real/ 5
-* 9.	TBSEK. (2025). Mejora continua en ciberseguridad. https://tbsek.mx/articulos/2025/04/45.mejoracontinua.html 9
-* 10.	Nacata. (2023). Plan de mejora continua. https://nacata.io/mejora-continua/ 10
+1.	Check Point. (2023). ¿Qué es la Defensa en Profundidad? https://www.checkpoint.com/es/cyber-hub/cyber-security/what-is-defense-in-depth/ 12
+2.	Kaspersky. (2025). Vulnerabilidades y ataques de día cero. https://latam.kaspersky.com/resource-center/definitions/zero-day-exploit 13
+3.	Cloudflare. (2025). ¿Qué es la defensa en profundidad? https://www.cloudflare.com/es-es/learning/security/glossary/what-is-defense-in-depth/ 2
+4.	Microsoft. (2025). Respuesta a incidentes. https://www.microsoft.com/es-co/security/business/security-101/what-is-incident-response/ 8
+5.	Fortinet. (2023). Defensa en profundidad. https://www.fortinet.com/lat/resources/cyberglossary/defense-in-depth 3
+6.	PMG SSI. (2015). Componentes de la defensa en profundidad. https://www.pmg-ssi.com/2015/01/iso-27001-componentes-de-la-defensa-en-profundidad/ 4
+7.	Check Point. (2024). Fases de respuesta a incidentes. https://www.checkpoint.com/es/cyber-hub/cyber-security/what-is-incident-response/the-6-phases-of-an-incident-response-plan/ 7
+8.	EasyDMARC. (2025). Cómo detener el ransomware. https://easydmarc.com/blog/es/como-detener-el-ransomware-en-tiempo-real/ 5
+9.	TBSEK. (2025). Mejora continua en ciberseguridad. https://tbsek.mx/articulos/2025/04/45.mejoracontinua.html 9
+10.	Nacata. (2023). Plan de mejora continua. https://nacata.io/mejora-continua/ 10
 
 
