@@ -79,6 +79,12 @@ El **spoofing** (suplantación) es una técnica utilizada por atacantes para **f
 - WinDump  (https://www.winpcap.org/windump/)
 
 
+---
+# **TALLER.**
+
+Realizar la práctica Guia_MITM_ARP_POISSON_JON.pdf que se encuentra en esta carpeta. 
+Se presenta vídeo-Guía para efectos de apoyo.
+
 
 
 
