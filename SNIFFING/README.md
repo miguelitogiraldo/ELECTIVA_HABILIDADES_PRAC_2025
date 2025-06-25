@@ -15,7 +15,7 @@ El **spoofing** (suplantación) es una técnica utilizada por atacantes para **f
 | **Email Spoofing** | Falsifica el remitente de un correo electrónico  | Phishing, fraude                    |
 | **Web Spoofing**   | Clona una web legítima                           | Robar credenciales                  |
 | **MAC Spoofing**   | Cambia la dirección MAC de un dispositivo        | Evadir filtros, suplantar identidad |
-| **GPS Spoofing**   | Cambiar la ubicación        | Desviar objetivos |
+| **GPS Spoofing**   | Cambiar la ubicación                             | Desviar objetivos                   |
 
 ---
 
