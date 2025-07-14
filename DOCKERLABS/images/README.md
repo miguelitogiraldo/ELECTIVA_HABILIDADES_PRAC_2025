@@ -4,6 +4,8 @@ DockerLabs es una plataforma que ofrece una serie de desafíos prácticos relaci
 
 # Reto Amor 
 
+**Prerequisito tener instalado docker**
+
 ## Fácil
 
 Dockerlabs.es
