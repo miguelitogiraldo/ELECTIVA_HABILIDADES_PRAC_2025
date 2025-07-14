@@ -8,11 +8,16 @@ DockerLabs es una plataforma que ofrece una serie de desafíos prácticos relaci
 
 Dockerlabs.es
 
+*Descarga*
+
+![](Descarga.jpg)
 ## Despliegue del laboratorio.
 
 Iniciaremos nuestro reto creando una carpeta para el ejercicio, descargando el laboratorio, descomprimiendo, otorgando permisos al script de despliegue y ejecutando el script.
 
 └─# ./auto_deploy.sh amor.tar 
+
+![](hydra.jpg)
 
 Imagén descarga.
 ![](hydra.jpg)
