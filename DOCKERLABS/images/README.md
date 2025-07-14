@@ -17,15 +17,15 @@ Iniciaremos nuestro reto creando una carpeta para el ejercicio, descargando el l
 
 └─# ./auto_deploy.sh amor.tar 
 
-![](hydra.jpg)
+![](Despliegue.jpg)
 
-Imagén descarga.
-![](hydra.jpg)
 
 
 ## Escaneo
 
 Lo primero que realizaremos será revisar nuestra interfaz de red con:
+
+![](ipadd.jpg)
 
 ```bash
 ip add 
