@@ -32,9 +32,25 @@ sudo apt install docker.io
 
 Iniciaremos nuestro reto creando una carpeta para el ejercicio, descargando el laboratorio, descomprimiendo, otorgando permisos al script de despliegue y ejecutando el script.
 
+**Descomprimir el recurso:**
+
+En nuestro caso se trata de la carpeta que se traslado por SCP desde ya descomprimida, en caso de que se descargue directamente en Kali proceder a descomprirla. 
+
+```bash
+unzip nombre_maquina.zip
+```
+
+Esto generará una  carpeta  con archivos: un script que es el autodespliegue de la máquina «auto_deploy.sh» y el archivo de la máquina en.tar «ejemplo.tar».
+
+Y por último para desplegar la máquina, basta con ejecutar el script:
+
+
+```bash
 └─# ./auto_deploy.sh amor.tar 
+```
 
 ![](Despliegue.jpg)
+
 
 ## Escaneo
 
