@@ -13,6 +13,12 @@ Dockerlabs.es
 *Descarga*
 
 ![](Descarga.jpg)
+
+Una vez descargada deberemos copiar el contenido hacia kali.
+
+![](scp1.jpg)
+
+
 ## Despliegue del laboratorio.
 
 Iniciaremos nuestro reto creando una carpeta para el ejercicio, descargando el laboratorio, descomprimiendo, otorgando permisos al script de despliegue y ejecutando el script.
@@ -21,7 +27,15 @@ Iniciaremos nuestro reto creando una carpeta para el ejercicio, descargando el l
 
 ![](Despliegue.jpg)
 
+```bash
+jaider@TTG MINGW64 /g/HACKING
+$ scp -r amor kali@192.168.1.12:/home/kali/Documents/
+```
+Ya en Kali y en caso de no tener instlado Docker proceder a su instalación: 
 
+```bash
+sudo apt install docker.io
+```
 
 ## Escaneo
 
