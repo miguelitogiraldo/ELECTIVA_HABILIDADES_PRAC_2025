@@ -1,4 +1,5 @@
 Realizar una investigación individual de cada una de las herramientas empleadas. Sintetice el resultado mediante un cuadro que explique su definición, funcionalidad y casos de uso.
+
 | **Herramienta** | **Definición** | **Funcionalidad** | **Casos de Uso** |
 |------------------|----------------|--------------------|------------------|
 | **Docker**       | Plataforma de contenedores para desplegar aplicaciones de forma aislada. | Ejecutar entornos de laboratorio sin alterar el sistema base. | Simulación de entornos vulnerables, pruebas de seguridad. |
