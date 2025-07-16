@@ -15,9 +15,12 @@
 
 2.1. Comando: docker pull raiolab/amor
 DESCRIPCION: Descarga la imagen del repositorio
+
 VARIANTES: 
 DOKER RUN: Ejecuta el contenero directamente
+
 DOKER IMAGEN: Lista de imagenes descargadas
+
 DOKER RMI: Elimina una imagen
 
 2.2. 
