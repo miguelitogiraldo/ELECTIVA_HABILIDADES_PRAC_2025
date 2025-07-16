@@ -1,4 +1,4 @@
-# **<p align="center">:imp::rotating_light::skull:LABORATORIO AMOR - DOCKER LABS:skull::rotating_light::imp:</p>**
+### **<p align="center">:imp::rotating_light::skull:LABORATORIO AMOR - DOCKER LABS:skull::rotating_light::imp:</p>**
 # **<p align="center">:warning: TALLER INDIVIDUAL. :warning:</p>**
 # <p align="center">![DANIEL TORRES JARAMILLO](https://cdn.hashnode.com/res/hashnode/image/upload/v1721789878989/a33685bd-c727-4147-90b5-101ab06186a7.jpeg?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp)</p>
 
@@ -7,7 +7,6 @@
 
 # <p align="LEFT">DESARROLLO
 1.	Realizar una investigación individual de cada una de las herramientas empleadas. Sintetice el resultado mediante un cuadro que explique su definición, funcionalidad y casos de uso.
-
 
 |      Herramienta     |      Definición                                                                                                       |      Funcionalidad principal                                                                            |      Casos de uso comunes                                                                                                                      |
 |----------------------|-----------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -20,3 +19,4 @@
 |     SCP              |     Herramienta basada en SSH para la transferencia segura de archivos.                                               |     Copiar archivos entre sistemas remotos o   locales de forma cifrada.                                | Transferencia de evidencias. Migrar   configuraciones o binarios. Automatizar copias seguras.                            |
 |     STEGHIDE         |     Herramienta de esteganografía para ocultar o extraer información   dentro de archivos (como imágenes o audio).    |     Inserta o recupera archivos secretos en   imágenes o sonidos.                                       | Ciberseguridad forense. CTFs   (Capture The Flag). Estudio   de técnicas de ocultación.                                    |
 
+2.	Explicar en detalle cada uno de los comandos empleados realizando un desglose del mismo y citando al menos tres alternativas (si aplica) de variantes del comando.
