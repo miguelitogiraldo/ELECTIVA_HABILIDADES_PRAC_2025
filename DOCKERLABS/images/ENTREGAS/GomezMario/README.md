@@ -59,33 +59,4 @@ Kali incluye más de 600 herramientas preinstaladas como:
 
 ---
 
-## 4. ¿Qué es el acceso SSH en una MV como Parallels?
 
-**SSH (Secure Shell)** es un protocolo de red seguro que permite el acceso remoto a sistemas de forma cifrada mediante una terminal.
-
-### ¿Por qué usar SSH en una MV?
-
-- **Administración remota**: Permite controlar la MV Kali desde otro equipo o desde el host sin necesidad de interfaz gráfica.
-- **Automatización de tareas**: Ejecutar scripts, configuraciones o pruebas desde el host hacia la MV.
-- **Transferencia segura de archivos**: Usando `scp` o `rsync` con cifrado.
-- **Simulación de ataques reales**: SSH permite realizar pruebas como fuerza bruta, tunneling, o prácticas de hardening del servicio.
-
-> SSH es una de las formas más comunes de administración en servidores Linux y es fundamental para el trabajo remoto y seguro de administradores y pentesters.
-
----
-
-## 5. ¿Para qué creo una cuenta de GitHub?
-
-**GitHub** es una plataforma de control de versiones basada en `git`, ampliamente utilizada por desarrolladores, investigadores y profesionales de la ciberseguridad.
-
-### Utilidades en este contexto:
-
-- **Versionado de código**: Permite llevar un control detallado de tus scripts, configuraciones y cambios.
-- **Documentación de prácticas**: Puedes alojar `README.md`, manuales o informes técnicos.
-- **Colaboración**: Trabajar con compañeros en proyectos o laboratorios conjuntos.
-- **Publicación de herramientas o exploits propios**: Puedes crear tus propios scripts y compartirlos con la comunidad.
-- **Acceso a proyectos open source**: Muchas herramientas de ciberseguridad están alojadas allí (como `Metasploit`, `sqlmap`, `recon-ng`, etc.).
-
-> GitHub no solo es una plataforma de desarrollo, también es un medio de aprendizaje, colaboración y reputación profesional en la comunidad de ciberseguridad.
-
----
