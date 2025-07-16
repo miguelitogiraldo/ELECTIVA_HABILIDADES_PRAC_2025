@@ -78,3 +78,43 @@ nmap: escáner.
     nmap -O
 
     nmap --script vuln
+
+2.3. Ataque de fuerza bruta con Hydra
+
+![Descripción](imagen/RETO%20AMOR%20IMAGEN%205.jpg)
+
+hydra: herramienta de fuerza bruta.
+
+-l hugo: usuario específico.
+
+-P rockyou.txt: lista de contraseñas.
+
+ftp://: protocolo objetivo.
+
+172.19.0.2: IP.
+
+  Variantes:
+
+  hydra -L users.txt -P pass.txt ssh://target
+
+  hydra -l admin -p 1234 rdp://target
+
+  hydra -s 2222 -l user -P pass.txt ssh://target
+
+2.4. Comprobación de archivos
+
+![Descripción](imagen/RETO%20AMOR%20IMAGEN%206.jpg)
+
+file: identifica tipo de archivo.
+
+Imagen.jpg: archivo objetivo.
+
+  Variantes:
+
+    file *
+
+    file /bin/ls
+
+    file -i archivo
+
+
