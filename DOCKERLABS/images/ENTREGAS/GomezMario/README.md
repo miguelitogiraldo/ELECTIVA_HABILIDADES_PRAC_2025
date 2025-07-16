@@ -27,24 +27,7 @@ Este taller tiene como objetivo desarrollar los puntos del taller de DOCKERLABS:
 
 ---
 
-## 2. ¿Para qué instalo Kali Linux?
-
-**Kali Linux** es una distribución basada en Debian, diseñada específicamente para tareas de:
-
-- **Pentesting (pruebas de penetración)**  
-- **Análisis forense digital**
-- **Ingeniería inversa**
-- **Auditorías de seguridad de redes y aplicaciones**
-
-Kali incluye más de 600 herramientas preinstaladas como:
-
-- `nmap`, `hydra`, `sqlmap`, `burp suite`, `wireshark`, `aircrack-ng`, entre muchas otras.
-
-> Es una herramienta estándar en la industria del hacking ético y se utiliza tanto en entornos académicos como profesionales para simular ataques y evaluar vulnerabilidades.
-
----
-
-## 3. ¿Para qué instalo Docker sobre Kali Linux? ¿Qué es Docker y para qué sirve?
+## 2. Comandos empleados en el Taller de DockerLabs.
 
 **Docker** es una plataforma de virtualización ligera basada en contenedores. Un contenedor es una unidad ejecutable que incluye todo lo necesario para ejecutar una aplicación: código, librerías, entorno y dependencias.
 
@@ -65,6 +48,13 @@ Kali incluye más de 600 herramientas preinstaladas como:
 | echo "ZXNsYWNhc2FkZXBpbnlwb24=" \| base64 -d; echo                                                 | Decodifica texto base64, `-d`: decode.                                                            | base64 --decode                     | openssl enc -base64 -d                  | python3 -m base64                                             |
 | sudo /usr/bin/ruby -e 'exec "/bin/bash"'                                                           | Ejecuta un shell `/bin/bash` con permisos elevados desde ruby.                                    | sudo ruby -e 'exec "/bin/bash"'     | ruby -rsystem -e 'system("/bin/bash")'  | echo 'bash' \| ruby                                           |
 | file imagen.jpg                                                                                    | Identifica el tipo y formato de archivo, útil para análisis forense.                              | exiftool imagen.jpg                 | stat imagen.jpg                         | identify imagen.jpg                                           |
+
+---
+
+
+## 3. Diagrama de flujo del Taller DockerLabs
+
+asdfasdf
 
 ---
 
