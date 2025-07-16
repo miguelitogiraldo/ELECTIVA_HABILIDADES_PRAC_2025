@@ -29,8 +29,6 @@ Este taller tiene como objetivo desarrollar los puntos del taller de DOCKERLABS:
 
 ## 2. Comandos empleados en el Taller de DockerLabs.
 
-### ¿Por qué instalar Docker en Kali?
-
 | COMANDO                                                                                            | EXPLICACIÓN DESGLOCE                                                                              | ALTERNATIVA 1                       | ALTERNATIVA 2                           | ALTERNATIVA 3                                                 |
 |----------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|-------------------------------------|-----------------------------------------|---------------------------------------------------------------|
 | scp -r amor kali@192.168.1.12:/home/kali/Documents/                                                | `scp`: copia segura, `-r`: recursivo, `amor`: carpeta origen, `kali@...`: destino.                | scp archivo usuario@IP:/ruta/       | rsync -avz archivo usuario@IP:/ruta/    | sftp usuario@IP                                               |
