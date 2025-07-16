@@ -95,11 +95,11 @@ ftp://: protocolo objetivo.
 
   Variantes:
 
-  hydra -L users.txt -P pass.txt ssh://target
+    hydra -L users.txt -P pass.txt ssh://target
 
-  hydra -l admin -p 1234 rdp://target
+    hydra -l admin -p 1234 rdp://target
 
-  hydra -s 2222 -l user -P pass.txt ssh://target
+    hydra -s 2222 -l user -P pass.txt ssh://target
 
 2.4. Comprobación de archivos
 
