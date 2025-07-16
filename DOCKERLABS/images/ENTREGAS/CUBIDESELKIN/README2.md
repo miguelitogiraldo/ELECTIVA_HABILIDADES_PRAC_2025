@@ -1,8 +1,8 @@
-# 🐳 DockerLabs - Reto CTF “Amor”
+# 🐳 DockerLabs - actividad individual “Amor”
 
 ## 🎯 Objetivo del Laboratorio
 
-El objetivo de este reto fue aplicar técnicas de ciberseguridad ofensiva mediante el despliegue de un entorno CTF utilizando **Docker**. Se resolvieron desafíos progresivos utilizando herramientas como **Nmap**, **Hydra**, **Gobuster**, **Steghide**, entre otras, orientadas a la explotación y escalada de privilegios.
+El objetivo de este reto fue la aplicación de técnicas de ciberseguridad ofensiva mediante el despliegue de un entorno CTF utilizando **Docker**. Se resolvieron desafíos progresivos utilizando herramientas como **Nmap**, **Hydra**, **Gobuster**, **Steghide**, orientadas a la explotación y escalada de privilegios. En casi un ejercicio de capturar la bandera.
 
 ---
 
