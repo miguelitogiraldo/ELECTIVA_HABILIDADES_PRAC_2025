@@ -1,4 +1,4 @@
-Realizar una investigación individual de cada una de las herramientas empleadas. Sintetice el resultado mediante un cuadro que explique su definición, funcionalidad y casos de uso.
+1. Realizar una investigación individual de cada una de las herramientas empleadas. Sintetice el resultado mediante un cuadro que explique su definición, funcionalidad y casos de uso.
 
 | **Herramienta** | **Definición** | **Funcionalidad** | **Casos de Uso** |
 |------------------|----------------|--------------------|------------------|
@@ -10,3 +10,18 @@ Realizar una investigación individual de cada una de las herramientas empleadas
 | **Steghide**     | Herramienta de esteganografía. | Oculta y extrae datos en archivos multimedia. | CTFs, protección de información, ocultamiento de datos. |
 | **File**         | Identifica el tipo de archivo. | Muestra tipo MIME y codificación. | Análisis forense, clasificación de archivos. |
 
+
+2. Explicar en detalle cada uno de los comandos empleados en el anterior CTF; realizando un desglose del mismo y citando al menos tres alternativas (si aplica) de variantes del comando para las herramientas empleadas, este punto amplia el ejercicio anterior.
+
+2.1. Comando: docker pull raiolab/amor
+DESCRIPCION: Descarga la imagen del repositorio
+VARIANTES: 
+DOKER RUN: Ejecuta el contenero directamente
+DOKER IMAGEN: Lista de imagenes descargadas
+DOKER RMI: Elimina una imagen
+
+2.2. 
+
+
+
+3.    
