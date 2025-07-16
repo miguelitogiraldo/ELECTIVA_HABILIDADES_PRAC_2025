@@ -29,8 +29,6 @@ Este taller tiene como objetivo desarrollar los puntos del taller de DOCKERLABS:
 
 ## 2. Comandos empleados en el Taller de DockerLabs.
 
-**Docker** es una plataforma de virtualización ligera basada en contenedores. Un contenedor es una unidad ejecutable que incluye todo lo necesario para ejecutar una aplicación: código, librerías, entorno y dependencias.
-
 ### ¿Por qué instalar Docker en Kali?
 
 | COMANDO                                                                                            | EXPLICACIÓN DESGLOCE                                                                              | ALTERNATIVA 1                       | ALTERNATIVA 2                           | ALTERNATIVA 3                                                 |
