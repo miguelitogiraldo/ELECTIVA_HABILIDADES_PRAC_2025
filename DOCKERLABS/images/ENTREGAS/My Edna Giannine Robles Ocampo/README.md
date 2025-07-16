@@ -117,4 +117,18 @@ Imagen.jpg: archivo objetivo.
 
     file -i archivo
 
+2.5. Esteganografía
 
+steghide: herramienta esteganográfica.
+
+extract: modo extracción.
+
+-sf: especifica fichero portador.
+
+  Variantes:
+
+    steghide embed -cf cover.jpg -ef secret.txt
+
+    steghide info imagen.jpg
+
+    steghide extract -sf imagen.jpg -p password
