@@ -13,7 +13,7 @@
 
 2. Explicar en detalle cada uno de los comandos empleados en el anterior CTF; realizando un desglose del mismo y citando al menos tres alternativas (si aplica) de variantes del comando para las herramientas empleadas, este punto amplia el ejercicio anterior.
 
-2.1. Comando: docker pull raiolab/amor
+2.1. COMANDO: DOCKER PULL RAIOLAB/amor
 
 DESCRIPCION: Descarga la imagen del repositorio
 
@@ -24,7 +24,7 @@ DOKER IMAGEN: Lista de imagenes descargadas
 
 DOKER RMI: Elimina una imagen
 
-2.2. Comando: netdiscover -i eth0 -r 172.17.0.0/16
+2.2. COMANDO: NETDISCOVER -i eth0 -r 172.17.0.0/16
 
 Descripción: Escaneo ARP para encontrar dispositivos en la red 172.17.0.0/16 usando la interfaz eth0.
 
