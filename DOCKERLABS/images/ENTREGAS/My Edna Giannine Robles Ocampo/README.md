@@ -44,3 +44,37 @@ docker run: ejecuta un contenedor.
     docker run -p 8080:80 nginx
 
     docker run --volume /host:/container alpine
+
+2.2. Escaneo
+
+![Descripción](imagen/RETO%20AMOR%20IMAGEN%203.jpg)
+
+nmap: escáner.
+
+-sP: (ping scan) identifica hosts activos.
+
+172.19.0.0/16: rango objetivo.
+
+  Variantes:
+
+    nmap -sn 192.168.1.0/24 (nuevo flag equivalente)
+
+    nmap -sL 192.168.1.0/24 (list scan)
+
+    nmap -Pn 192.168.1.1 (sin ping)
+
+![Descripción](imagen/RETO%20AMOR%20IMAGEN%204.jpg)
+
+-A: detección avanzada (OS, scripts, traceroute).
+
+-sV: versión de servicios.
+
+172.19.0.2: IP objetivo.
+
+  Variantes:
+
+    nmap -sC -sV
+
+    nmap -O
+
+    nmap --script vuln
