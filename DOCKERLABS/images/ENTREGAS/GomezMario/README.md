@@ -24,7 +24,6 @@ Este taller tiene como objetivo desarrollar los puntos del taller de DOCKERLABS:
 | SSH         | Secure Shell: protocolo seguro para conexión remota.                                         | Acceso remoto a sistemas Linux.                       | `ssh carlota@172.17.0.2`                                                                           |   |
 | Steghide    | Herramienta para ocultar y extraer información de imágenes.                                  | Realizar esteganografía.                              | `steghide --extract -sf imagen.jpg`                                                                |   |
 | Base64      | Sistema de codificación para datos binarios en texto ASCII.                                  | Decodificación de texto escondido.                    | `echo 'base64text' \| base64 -d`                                                                   |   |
-| Sudo/Ruby   | Sudo permite ejecutar comandos como root; Ruby es un lenguaje de scripting.                  | Ejecutar shell como root a través de ruby.            | `sudo /usr/bin/ruby -e 'exec "/bin/bash"'`                                                         |   |
 
 ---
 
