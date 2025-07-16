@@ -1,4 +1,21 @@
 **INVESTIGACIÓN DE HERRAMIENTAS EMPLEADAS**
+| **Herramienta** | **Definición** | **Funcionalidad Principal** | **Casos de Uso Comunes** |
+|----------------|----------------|-----------------------------|---------------------------|
+| `scp`          | Herramienta de copia segura entre equipos a través de SSH. | Copiar archivos/directorios entre sistemas locales y remotos. | Transferencia de archivos entre servidores, backup remoto. |
+| `docker`       | Plataforma de contenedores para ejecutar aplicaciones en entornos aislados. | Despliegue y ejecución de contenedores de forma portable. | Laboratorios de pentesting, pruebas de software. |
+| `unzip`        | Utilidad para descomprimir archivos `.zip`. | Extraer contenido de archivos comprimidos en `.zip`. | Preparar archivos descargados o transferidos. |
+| `chmod`        | Comando para modificar permisos de archivos. | Otorgar permisos de ejecución o lectura/escritura. | Permitir ejecución de scripts como `auto_deploy.sh`. |
+| `ip add`       | Muestra la configuración de red. | Ver interfaces de red y direcciones IP. | Diagnóstico de red, determinar segmento IP para escaneo. |
+| `netdiscover`  | Herramienta de descubrimiento de hosts en red local. | Detectar dispositivos activos por ARP. | Reconocimiento pasivo, identificación de hosts. |
+| `nmap`         | Escáner de puertos y servicios. | Detectar puertos abiertos, servicios, versiones. | Reconocimiento activo, enumeración previa a explotación. |
+| `gobuster`     | Fuzzer de directorios para aplicaciones web. | Enumerar archivos y carpetas ocultas. | Búsqueda de rutas ocultas en sitios web vulnerables. |
+| `hydra`        | Herramienta de fuerza bruta para servicios de red. | Probar combinaciones de usuarios y contraseñas. | Auditoría de credenciales (SSH, FTP, HTTP). |
+| `ssh`          | Protocolo para acceso remoto seguro. | Establecer sesión de consola segura con un host remoto. | Administración remota de servidores. |
+| `file`         | Identifica el tipo de archivo. | Detectar formato, codificación o binario. | Confirmar si un archivo contiene esteganografía. |
+| `steghide`     | Herramienta para ocultar/extraer archivos dentro de imágenes/audio. | Extraer contenido oculto de imágenes. | Análisis forense, CTFs. |
+| `base64`       | Codificador y decodificador en base64. | Convertir entre texto y base64. | Comunicación oculta, análisis de datos encriptados. |
+| `sudo`         | Ejecuta comandos como otro usuario (normalmente root). | Escalar privilegios de usuario. | Administración de sistemas, acceso restringido. |
+| `ruby`         | Lenguaje de programación usado para scripting. | Ejecutar código Ruby desde consola. | Escalada de privilegios mediante ejecución de comandos. |
 
 **EXPLICACIÓN DETALLADA DE COMANDOS Y VARIANTES**
 
