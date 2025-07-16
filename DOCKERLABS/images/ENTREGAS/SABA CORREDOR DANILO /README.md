@@ -14,6 +14,7 @@
 2. Explicar en detalle cada uno de los comandos empleados en el anterior CTF; realizando un desglose del mismo y citando al menos tres alternativas (si aplica) de variantes del comando para las herramientas empleadas, este punto amplia el ejercicio anterior.
 
 2.1. Comando: docker pull raiolab/amor
+
 DESCRIPCION: Descarga la imagen del repositorio
 
 VARIANTES: 
