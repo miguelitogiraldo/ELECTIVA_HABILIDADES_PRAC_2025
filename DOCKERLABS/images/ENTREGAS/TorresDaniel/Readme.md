@@ -25,12 +25,18 @@
 |     SSH              |     Protocolo de red seguro para acceso remoto a través de una consola.                                               |     Conexión a sistemas remotos de forma segura   mediante cifrado.                                     |     - Acceso   remoto a servidores.     -   Administración de sistemas Linux.     - Túneles   SSH para acceso seguro.                          ||
 |     STEGHIDE         |     Herramienta de esteganografía para ocultar o extraer información   dentro de archivos (como imágenes o audio).    |     Inserta o recupera archivos secretos en   imágenes o sonidos.                                       | Ciberseguridad forense. CTFs   (Capture The Flag). Estudio   de técnicas de ocultación.                                         |
 
+
+
+
 2.	Explicar en detalle cada uno de los comandos empleados realizando un desglose del mismo y citando al menos tres alternativas (si aplica) de variantes del comando.
 
 ![Cyber](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExMjAwM3Q5MTM4NXY2MXBlZm5taWx0bjRzajNsaGVmOWE5bzgyam5zMCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/HscDLzkO8EOTmgkhQP/giphy.webp)
 ![Cyber](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMjAwM3Q5MTM4NXY2MXBlZm5taWx0bjRzajNsaGVmOWE5bzgyam5zMCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/VTtANKl0beDFQRLDTh/giphy.webp)
 ![Cyber](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExcmRuaWN4bzk3OWV5eWpiNTBiNTZkMXIzN3JzcWJ1Z2N0ZW50MG5zeSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/bGgsc5mWoryfgKBx1u/giphy.webp)
 ![Cyber](https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExdWltM210ZGIyZGxzdW0ydjBmb2FuM2lzcGVvbmpmdXU5d2ltd3JuZyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/l0IyeheChYxx2byDu/giphy.webp)
+
+
+
 
 
 |                 Comando                 |                Función               |                         Desglose                        |              Variante 1              |         Variante 2         |     Variante 3     |
@@ -51,7 +57,7 @@
 | sudo ruby -e 'exec ...'                 | Escalada de privilegios.             | Ejecuta una shell como root usando Ruby.                | sudo /bin/sh                         | sudo python -c ...         | sudo perl -e ...   |
 | whoami                                  | Mostrar usuario actual.              | Retorna el nombre del usuario actual.                   | id                                   | echo $USER                 | logname            |
 
-
+3.	Realice un diagrama de flujo de todo el procedimiento realizado.
 
 
 
