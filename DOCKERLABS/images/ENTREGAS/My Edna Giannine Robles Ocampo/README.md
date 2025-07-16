@@ -119,6 +119,8 @@ Imagen.jpg: archivo objetivo.
 
 2.5. Esteganografía
 
+![Descripción](imagen/RETO%20AMOR%20IMAGEN%207.jpg)
+
 steghide: herramienta esteganográfica.
 
 extract: modo extracción.
@@ -132,3 +134,5 @@ extract: modo extracción.
     steghide info imagen.jpg
 
     steghide extract -sf imagen.jpg -p password
+
+3. Realice un diagrama de flujo de todo el procedimiento realizado.
