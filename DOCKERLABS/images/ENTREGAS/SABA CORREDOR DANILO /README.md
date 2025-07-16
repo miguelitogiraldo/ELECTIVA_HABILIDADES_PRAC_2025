@@ -13,7 +13,7 @@
 
 2. Explicar en detalle cada uno de los comandos empleados en el anterior CTF; realizando un desglose del mismo y citando al menos tres alternativas (si aplica) de variantes del comando para las herramientas empleadas, este punto amplia el ejercicio anterior.
 
-2.1. COMANDO: DOCKER PULL RAIOLAB/amor
+2.1.1  COMANDO: DOCKER PULL RAIOLAB/amor
 
 DESCRIPCION: Descarga la imagen del repositorio
 
@@ -71,11 +71,67 @@ o	-P: Especificar puerto SSH.
 
 o	-r: Copia recursiva de directorios.
 
+2.6.6.	COMANDO: FILE IMAGEN.JPG
+
+•	Descripción: Muestra tipo de archivo y codificación.
+
+•	Variantes:
+
+o	file -i: Muestra tipo MIME
+
+o	file -i: Muestra tipo MIME
+
+o	file -z: Archivos comprimidos.
+
+2.7. 7.	COMANDO: STEGHIDE EXTRACT -SF IMAGEN.JPG
+
+•	Descripción: Extrae datos ocultos en la imagen imagen.jpg.
+
+•	Variantes:
+
+o	-p [clave]: Especifica contraseña.
+
+o	--force: Extrae sin confirmar sobrescritura.
+
+o	--force: Extrae sin confirmar sobrescritura.
+
+2.8. 8.	COMANDO: ECHO "ZGVZZW5JCNVWDGFKB3JH" | BASE64 -D
+
+•	Descripción: Decodifica cadena Base64.
+
+•	Variantes:
+
+o	base64: Codifica entrada.
+
+o	base64 -w 0: Evita saltos de línea.
+
+o	base64 -w 0: Evita saltos de línea.
+
+2.9. 9.	COMANDO: SUDO /usr/bin/ruby -e 'exec "/bin/bash"'
+
+•	Descripción: Ejecuta Bash desde Ruby como superusuario.
+
+•	Variantes:
+
+o	sudo su: Acceso root directo.
+
+o	sudo -i: Acceso root con entorno de login.
+
+o	sudo ruby script.rb: Ejecuta script Ruby con privilegios.
+
+2.10. 10.	COMANDO: WHOAMI
+
+•	Descripción: Devuelve el usuario actual.
+
+•	Variantes:
+
+o	id: Muestra UID, GID, grupos
+
+o	logname: Usuario del login
+
+o	users: Lista usuarios conectados.
 
 
 
-
-
-
-
-3.    
+3.    REALICE UN DIAGRAMA DE FLUJO DE TODO EL PROCEDIMIENTO REALIZADO.
+  
