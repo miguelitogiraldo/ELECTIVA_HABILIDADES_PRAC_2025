@@ -27,4 +27,13 @@
 
 2.	Explicar en detalle cada uno de los comandos empleados realizando un desglose del mismo y citando al menos tres alternativas (si aplica) de variantes del comando.
 
-https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExMjAwM3Q5MTM4NXY2MXBlZm5taWx0bjRzajNsaGVmOWE5bzgyam5zMCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/HscDLzkO8EOTmgkhQP/giphy.webp
+![Cyber](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExMjAwM3Q5MTM4NXY2MXBlZm5taWx0bjRzajNsaGVmOWE5bzgyam5zMCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/HscDLzkO8EOTmgkhQP/giphy.webp)
+![Cyber](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMjAwM3Q5MTM4NXY2MXBlZm5taWx0bjRzajNsaGVmOWE5bzgyam5zMCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/VTtANKl0beDFQRLDTh/giphy.webp)
+![Cyber](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExcmRuaWN4bzk3OWV5eWpiNTBiNTZkMXIzN3JzcWJ1Z2N0ZW50MG5zeSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/bGgsc5mWoryfgKBx1u/giphy.webp)
+![Cyber](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExbWVyNGZhZjNhaHBvdWVmZWZwMnBmc2RsbjU1bmNnbmV4NW5qNzBiaiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/BBxHxdxHJTN4vYckCL/100.webp)
+
+
+
+
+
+
