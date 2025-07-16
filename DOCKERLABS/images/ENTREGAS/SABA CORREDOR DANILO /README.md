@@ -24,7 +24,18 @@ DOKER IMAGEN: Lista de imagenes descargadas
 
 DOKER RMI: Elimina una imagen
 
-2.2. 
+2.2. Comando: netdiscover -i eth0 -r 172.17.0.0/16
+
+Descripción: Escaneo ARP para encontrar dispositivos en la red 172.17.0.0/16 usando la interfaz eth0.
+
+•	Variantes:
+
+i wlan0: Usa interfaz WiFi.
+
+o	-r 192.168.1.0/24: Rango de red diferente.
+
+o	-P: Muestra en modo pasivo.
+
 
 
 
