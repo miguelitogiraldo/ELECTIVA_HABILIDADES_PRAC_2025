@@ -201,7 +201,7 @@ Ejemplos Prácticos: Incluyan ejemplos concretos y funcionales que ilustren el u
 
 1. ReAlizar una investigación individual de cada una de las herramientas empleadas. Sintetice el resultado  mediante un cuadro que explique su definición, funcionalidad y casos de uso.
 
-2. Explicar en detalle cada uno de los comandos empleados realizando un desglose del mismo y citando al menos tres alternativas (si aplica) de variantes del comando para las herramientas empleaas, este punto amplia el ejercicio anterior.
+2. Explicar en detalle cada uno de los comandos empleados en el anterior CTF;  realizando un desglose del mismo y citando al menos tres alternativas (si aplica) de variantes del comando para las herramientas empleadas, este punto amplia el ejercicio anterior.
    
 4. Realice un diagrama de flujo de todo el procedimiento realizado.
 
