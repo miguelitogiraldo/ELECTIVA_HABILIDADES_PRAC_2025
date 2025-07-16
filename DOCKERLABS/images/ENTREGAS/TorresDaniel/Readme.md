@@ -58,6 +58,9 @@
 | whoami                                  | Mostrar usuario actual.              | Retorna el nombre del usuario actual.                   | id                                   | echo $USER                 | logname            |
 
 3.	Realice un diagrama de flujo de todo el procedimiento realizado.
+![Diagrama de flujo Lab Amor](https://github.com/user-attachments/assets/82865bd5-cc45-463e-8dc2-24d5ba509343)
+
+
 
 
 
