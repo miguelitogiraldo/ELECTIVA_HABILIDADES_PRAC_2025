@@ -10,7 +10,9 @@
 
 2.	Explicar en detalle cada uno de los comandos empleados realizando un desglose del mismo y citando al menos tres alternativas (si aplica) de variantes del comando. 3. Realice un diagrama de flujo de todo el procedimiento realizado.
 2.1. Despliegue del laboratorio
+
 ![Descripción](imagen/RETO%20AMOR%20IMAGEN%201.jpg)
+
 docker pull: descarga imagen de DockerHub.
 raolab/networks:amor: repositorio e imagen.
 
