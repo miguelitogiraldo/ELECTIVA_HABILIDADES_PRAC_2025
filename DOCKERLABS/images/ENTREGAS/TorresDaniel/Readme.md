@@ -6,28 +6,16 @@
 
 
 
-Herramienta	Definición	Funcionalidad principal	Casos de uso comunes
-DOCKER	Plataforma de virtualización ligera basada en contenedores.	Desplegar, gestionar y aislar aplicaciones en entornos autocontenidos llamados contenedores.	- Crear laboratorios de ciberseguridad. 
-- Aislar entornos de desarrollo.
-- Automatizar despliegues.
-NETDISCOVER	Herramienta de descubrimiento de red en capa 2 (ARP).	Detectar dispositivos activos en una red local sin necesidad de escaneo activo.	- Identificar hosts en redes desconocidas.
-- Reconocimiento pasivo en pentesting.
-- Crear mapas de red.
-NMAP	Network Mapper: herramienta de escaneo y auditoría de red.	Escanear puertos, descubrir servicios, versiones y sistemas operativos de dispositivos en red.	- Enumeración de puertos abiertos.
-- Auditorías de seguridad.
-- Detección de vulnerabilidades.
-GOBUSTER	Herramienta de fuerza bruta para descubrir directorios y archivos ocultos en servidores web.	Enviar múltiples solicitudes HTTP para descubrir rutas válidas en una aplicación web.	- Fuzzing de directorios/archivos web.
-- Enumeración en pruebas de penetración web.
-- Descubrimiento de recursos ocultos.
-HYDRA	Herramienta de ataque de fuerza bruta a servicios de autenticación remota.	Probar combinaciones de usuarios/contraseñas sobre servicios como SSH, FTP, HTTP, etc.	- Pentesting de credenciales.
-- Auditoría de autenticación remota.
-- Automatización de ataques por diccionario.
-SSH	Protocolo de red seguro para acceso remoto a través de una consola.	Conexión a sistemas remotos de forma segura mediante cifrado.	- Acceso remoto a servidores.
-- Administración de sistemas Linux.
-- Túneles SSH para acceso seguro.
-SCP	Herramienta basada en SSH para la transferencia segura de archivos.	Copiar archivos entre sistemas remotos o locales de forma cifrada.	- Transferencia de evidencias.
-- Migrar configuraciones o binarios.
-- Automatizar copias seguras.
-STEGHIDE	Herramienta de esteganografía para ocultar o extraer información dentro de archivos (como imágenes o audio).	Inserta o recupera archivos secretos en imágenes o sonidos.	- Ciberseguridad forense.
-- CTFs (Capture The Flag).
-- Estudio de técnicas de ocultación.
+
+|      Herramienta     |      Definición                                                                                                       |      Funcionalidad principal                                                                            |      Casos de uso comunes                                                                                                                      |
+|----------------------|-----------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------|
+|     DOCKER           |     Plataforma de virtualización ligera basada en contenedores.                                                       |     Desplegar, gestionar y aislar aplicaciones   en entornos autocontenidos llamados contenedores.      |     - Crear   laboratorios de ciberseguridad.      - Aislar   entornos de desarrollo.     -   Automatizar despliegues.                         |
+|     NETDISCOVER      |     Herramienta de descubrimiento de red en capa 2 (ARP).                                                             |     Detectar dispositivos activos en una red   local sin necesidad de escaneo activo.                   |     -   Identificar hosts en redes desconocidas.     -   Reconocimiento pasivo en pentesting.     - Crear   mapas de red.                      |
+|     NMAP             |     Network Mapper: herramienta de escaneo y auditoría de red.                                                        |     Escanear puertos, descubrir servicios,   versiones y sistemas operativos de dispositivos en red.    |     -   Enumeración de puertos abiertos.     -   Auditorías de seguridad.     -   Detección de vulnerabilidades.                               |
+|     GOBUSTER         |     Herramienta de fuerza bruta para descubrir directorios y archivos   ocultos en servidores web.                    |     Enviar múltiples solicitudes HTTP para   descubrir rutas válidas en una aplicación web.             |     - Fuzzing   de directorios/archivos web.     -   Enumeración en pruebas de penetración web.     -   Descubrimiento de recursos ocultos.    |
+|     HYDRA            |     Herramienta de ataque de fuerza bruta a servicios de autenticación   remota.                                      |     Probar combinaciones de usuarios/contraseñas   sobre servicios como SSH, FTP, HTTP, etc.            |     -   Pentesting de credenciales.     -   Auditoría de autenticación remota.     -   Automatización de ataques por diccionario.              |
+|     SSH              |     Protocolo de red seguro para acceso remoto a través de una consola.                                               |     Conexión a sistemas remotos de forma segura   mediante cifrado.                                     |     - Acceso   remoto a servidores.     -   Administración de sistemas Linux.     - Túneles   SSH para acceso seguro.                          |
+|     SCP              |     Herramienta basada en SSH para la transferencia segura de archivos.                                               |     Copiar archivos entre sistemas remotos o   locales de forma cifrada.                                |     -   Transferencia de evidencias.     - Migrar   configuraciones o binarios.     -   Automatizar copias seguras.                            |
+|     STEGHIDE         |     Herramienta de esteganografía para ocultar o extraer información   dentro de archivos (como imágenes o audio).    |     Inserta o recupera archivos secretos en   imágenes o sonidos.                                       |     -   Ciberseguridad forense.     - CTFs   (Capture The Flag).     - Estudio   de técnicas de ocultación.                                    |
+|                      |                                                                                                                       |                                                                                                         |                                                                                                                                                |
+|                      |                                                                                                                       |                                                                                                         |                                                                                                                                                |
