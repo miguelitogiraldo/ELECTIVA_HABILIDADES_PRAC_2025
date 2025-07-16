@@ -176,7 +176,7 @@ whoami
 
 - Para esta actividad individual, deberán realizar el trabajo dentro de la subcarpeta ENTREGAS que se encuentra en la sesión actual.
 
-- La entrega final deberá cargarse en un nuevo directorio dentro de ENTREGAS, el cual tendrá el formato ApellidoNombre (ejemplo: PerezJuan). Este directorio deberá ser creado por cada estudiante en el repositorio de GitHub asignado, para lo cual se les otorgarán los permisos de colaboradores necesarios.
+- La entrega final deberá cargarse en un nuevo directorio dentro de la carpeta **ENTREGAS**, el cual tendrá el formato ApellidoNombre (ejemplo: PerezJuan). Este directorio deberá ser creado por cada estudiante en el repositorio de GitHub asignado, para lo cual se les otorgarán los permisos de colaboradores necesarios.
 
 **Métrica Clave: Profundidad y Calidad de las Respuestas**
 
