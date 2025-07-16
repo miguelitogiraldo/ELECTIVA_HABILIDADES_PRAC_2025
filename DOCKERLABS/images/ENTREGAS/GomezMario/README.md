@@ -52,7 +52,8 @@ Este taller tiene como objetivo desarrollar los puntos del taller de DOCKERLABS:
 
 ## 3. Diagrama de flujo del Taller DockerLabs
 
-asdfasdf
+<img width="824" height="829" alt="Diagrama de flujo" src="https://github.com/user-attachments/assets/4a8bb55f-5b41-4686-87bd-671a1e22caf6" />
+
 
 ---
 
