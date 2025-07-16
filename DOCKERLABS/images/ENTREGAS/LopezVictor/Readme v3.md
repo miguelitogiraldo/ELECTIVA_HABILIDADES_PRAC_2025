@@ -1,6 +1,6 @@
 <h5>**TALLER INDIVIDUAL**<h5>
 
-**INVESTIGACIÓN DE HERRAMIENTAS EMPLEADAS**
+**1. INVESTIGACIÓN DE HERRAMIENTAS EMPLEADAS**
 | **Herramienta** | **Definición** | **Funcionalidad Principal** | **Casos de Uso Comunes** |
 |----------------|----------------|-----------------------------|---------------------------|
 | `scp`          | Herramienta de copia segura entre equipos a través de SSH. | Copiar archivos/directorios entre sistemas locales y remotos. | Transferencia de archivos entre servidores, backup remoto. |
@@ -18,6 +18,8 @@
 | `base64`       | Codificador y decodificador en base64. | Convertir entre texto y base64. | Comunicación oculta, análisis de datos encriptados. |
 | `sudo`         | Ejecuta comandos como otro usuario (normalmente root). | Escalar privilegios de usuario. | Administración de sistemas, acceso restringido. |
 | `ruby`         | Lenguaje de programación usado para scripting. | Ejecutar código Ruby desde consola. | Escalada de privilegios mediante ejecución de comandos. |
+
+![Herramientas Utilizadas](Images/1.png)
 
 **EXPLICACIÓN DETALLADA DE COMANDOS Y VARIANTES**
 
