@@ -1,6 +1,6 @@
-**INVESTIGACIÓN DE HERRAMIENTAS EMPLEADAS**
+#**INVESTIGACIÓN DE HERRAMIENTAS EMPLEADAS**
 
-EXPLICACIÓN DETALLADA DE COMANDOS Y VARIANTES
+##*EXPLICACIÓN DETALLADA DE COMANDOS Y VARIANTES*
 scp -r amor kali@192.168.1.12:/home/kali/Documents/
 Descripción: Copia recursivamente el directorio amor al sistema remoto.
 Variantes:
