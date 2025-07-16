@@ -1,4 +1,4 @@
-<h3>**TALLER INDIVIDUAL**<h3>
+<h5>**TALLER INDIVIDUAL**<h5>
 
 **INVESTIGACIÓN DE HERRAMIENTAS EMPLEADAS**
 | **Herramienta** | **Definición** | **Funcionalidad Principal** | **Casos de Uso Comunes** |
