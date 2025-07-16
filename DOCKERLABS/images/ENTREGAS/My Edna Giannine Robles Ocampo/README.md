@@ -14,16 +14,18 @@
 
 ![Descripción](imagen/RETO%20AMOR%20IMAGEN%201.jpg)
 
-docker pull: descarga imagen de DockerHub.
+docker pull: descarga la imagen del registro Docker.
 
-raolab/networks:amor: repositorio e imagen.
+raolab/networks:amor: nombre de la imagen + etiqueta específica.
 
   Variantes:
-      docker pull alpine
-     
-      docker pull ubuntu:latest
-     
-      docker pull private/imagen:tag
+
+    docker pull alpine
+
+    docker pull ubuntu:latest
+
+    docker pull <privateregistry>/imagen:tag
+
 
 ![Descripción](imagen/RETO%20AMOR%20IMAGEN%202.jpg)
 
@@ -35,10 +37,10 @@ docker run: ejecuta un contenedor.
 
 /bin/bash: shell de arranque.
 
-    Variantes:
+  Variantes:
 
-      docker run -d --name miapp alpine
-     
-      docker run -p 8080:80 nginx
-     
-      docker run --volume /host:/container alpine
+    docker run -d --name miapp alpine
+
+    docker run -p 8080:80 nginx
+
+    docker run --volume /host:/container alpine
