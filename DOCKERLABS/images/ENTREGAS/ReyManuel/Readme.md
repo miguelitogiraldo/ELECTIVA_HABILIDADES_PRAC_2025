@@ -234,10 +234,10 @@
 * `logname` (usuario que inició sesión).
 
 
-# ***3. Realice un diagrama de flujo de todo el procedimiento realizado.***
+## ***3. Realice un diagrama de flujo de todo el procedimiento realizado.***
 
 
-# Reto Amor - Diagrama de Flujo
+## Reto Amor - Diagrama de Flujo
 
 ```mermaid
 graph TD
