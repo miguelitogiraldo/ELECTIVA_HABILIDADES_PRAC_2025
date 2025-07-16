@@ -16,8 +16,8 @@
 docker pull: descarga imagen de DockerHub.
 raolab/networks:amor: repositorio e imagen.
 
-Variantes:
-docker pull alpine
-docker pull ubuntu:latest
-docker pull private/imagen:tag
+  Variantes:
+      docker pull alpine
+      docker pull ubuntu:latest
+      docker pull private/imagen:tag
 
