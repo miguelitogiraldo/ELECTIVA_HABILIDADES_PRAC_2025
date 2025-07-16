@@ -30,7 +30,7 @@
 ![Cyber](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExMjAwM3Q5MTM4NXY2MXBlZm5taWx0bjRzajNsaGVmOWE5bzgyam5zMCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/HscDLzkO8EOTmgkhQP/giphy.webp)
 ![Cyber](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMjAwM3Q5MTM4NXY2MXBlZm5taWx0bjRzajNsaGVmOWE5bzgyam5zMCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/VTtANKl0beDFQRLDTh/giphy.webp)
 ![Cyber](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExcmRuaWN4bzk3OWV5eWpiNTBiNTZkMXIzN3JzcWJ1Z2N0ZW50MG5zeSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/bGgsc5mWoryfgKBx1u/giphy.webp)
-![Cyber](https://media0.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3b3R0b21lenBjNWs0MXEyZmF4ZDV0MjBidjZ5NWNpYjNsdm02Y2hpMyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/eCqFYAVjjDksg/giphy.webp)
+
 
 
 
