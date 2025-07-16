@@ -1,4 +1,4 @@
-### **<p align="center">:imp::rotating_light::skull:LABORATORIO AMOR - DOCKER LABS:skull::rotating_light::imp:</p>**
+# *<p align="center">:imp::rotating_light::skull:LABORATORIO AMOR - DOCKER LABS:skull::rotating_light::imp:</p>**
 # **<p align="center">:warning: TALLER INDIVIDUAL. :warning:</p>**
 # <p align="center">![DANIEL TORRES JARAMILLO](https://cdn.hashnode.com/res/hashnode/image/upload/v1721789878989/a33685bd-c727-4147-90b5-101ab06186a7.jpeg?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp)</p>
 
@@ -6,7 +6,13 @@
 # <p align="center">:shipit::computer:**"LOVE" MACHINE**:computer::shipit: </p>
 
 # <p align="LEFT">DESARROLLO
+
 1.	Realizar una investigación individual de cada una de las herramientas empleadas. Sintetice el resultado mediante un cuadro que explique su definición, funcionalidad y casos de uso.
+# <p align="LEFT">TOOLS
+![Cyber](https://media4.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3MmNhM2t4ODdvcno4amdxaHpsZ2QwNjR4MHFiOGhna2QzcWFnOXF1OCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/3oKIPqsXYcdjcBcXL2/giphy.webp)
+
+
+   
 
 |      Herramienta     |      Definición                                                                                                       |      Funcionalidad principal                                                                            |      Casos de uso comunes                                                                                                                      |
 |----------------------|-----------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------|
