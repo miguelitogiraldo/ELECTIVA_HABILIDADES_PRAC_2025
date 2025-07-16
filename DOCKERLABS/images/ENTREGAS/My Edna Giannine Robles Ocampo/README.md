@@ -21,3 +21,15 @@ raolab/networks:amor: repositorio e imagen.
       docker pull ubuntu:latest
       docker pull private/imagen:tag
 
+![Descripción](imagen/RETO%20AMOR%20IMAGEN%202.jpg)
+
+docker run: ejecuta un contenedor.
+-it: interactivo con terminal.
+--rm: elimina contenedor al salir.
+/bin/bash: shell de arranque.
+
+    Variantes:
+
+      docker run -d --name miapp alpine
+      docker run -p 8080:80 nginx
+      docker run --volume /host:/container alpine
