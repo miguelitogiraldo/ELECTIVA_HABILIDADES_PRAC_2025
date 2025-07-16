@@ -1,4 +1,4 @@
-# *<p align="center">:imp::rotating_light::skull:LABORATORIO AMOR - DOCKER LABS:skull::rotating_light::imp:</p>**
+# **<p align="center">:imp::rotating_light::skull:LABORATORIO AMOR - DOCKER LABS:skull::rotating_light::imp:</p>**
 # **<p align="center">:warning: TALLER INDIVIDUAL. :warning:</p>**
 # <p align="center">![DANIEL TORRES JARAMILLO](https://cdn.hashnode.com/res/hashnode/image/upload/v1721789878989/a33685bd-c727-4147-90b5-101ab06186a7.jpeg?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp)</p>
 
@@ -30,7 +30,7 @@
 ![Cyber](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExMjAwM3Q5MTM4NXY2MXBlZm5taWx0bjRzajNsaGVmOWE5bzgyam5zMCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/HscDLzkO8EOTmgkhQP/giphy.webp)
 ![Cyber](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMjAwM3Q5MTM4NXY2MXBlZm5taWx0bjRzajNsaGVmOWE5bzgyam5zMCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/VTtANKl0beDFQRLDTh/giphy.webp)
 ![Cyber](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExcmRuaWN4bzk3OWV5eWpiNTBiNTZkMXIzN3JzcWJ1Z2N0ZW50MG5zeSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/bGgsc5mWoryfgKBx1u/giphy.webp)
-![Cyber](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExbWVyNGZhZjNhaHBvdWVmZWZwMnBmc2RsbjU1bmNnbmV4NW5qNzBiaiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/BBxHxdxHJTN4vYckCL/100.webp)
+![Cyber](https://media0.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3b3R0b21lenBjNWs0MXEyZmF4ZDV0MjBidjZ5NWNpYjNsdm02Y2hpMyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/eCqFYAVjjDksg/giphy.webp)
 
 
 
