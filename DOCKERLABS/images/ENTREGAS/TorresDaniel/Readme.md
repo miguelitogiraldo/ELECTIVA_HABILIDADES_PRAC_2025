@@ -4,8 +4,8 @@
 
 # <p align="center">DTORRESJ :shipit::computer:**"LOVE" MACHINE**:computer::shipit: </p>
 
-
-
+# <p align="LEFT">![DESARROLLO]
+1.	Realizar una investigación individual de cada una de las herramientas empleadas. Sintetice el resultado mediante un cuadro que explique su definición, funcionalidad y casos de uso.
 
 |      Herramienta     |      Definición                                                                                                       |      Funcionalidad principal                                                                            |      Casos de uso comunes                                                                                                                      |
 |----------------------|-----------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------|
