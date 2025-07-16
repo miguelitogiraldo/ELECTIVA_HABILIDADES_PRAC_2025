@@ -172,6 +172,8 @@ whoami
 
 # Taller Individual.
 
+**NOTA IMPORTANTE: Realizar la actividad dentro de un README.md**
+
 **Instrucciones:**
 
 - Para esta actividad individual, deberán realizar el trabajo dentro de la subcarpeta ENTREGAS que se encuentra en la sesión actual; dentro de el README.md de la sesión.
