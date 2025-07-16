@@ -2,10 +2,12 @@
 # **<p align="center">:warning: TALLER INDIVIDUAL. :warning:</p>**
 # <p align="center">![DANIEL TORRES JARAMILLO](https://cdn.hashnode.com/res/hashnode/image/upload/v1721789878989/a33685bd-c727-4147-90b5-101ab06186a7.jpeg?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp)</p>
 
-# <p align="center">DTORRESJ :shipit::computer:**"LOVE" MACHINE**:computer::shipit: </p>
+# <p align="center">DANIEL TORRES JARAMILLO
+# <p align="center">:shipit::computer:**"LOVE" MACHINE**:computer::shipit: </p>
 
-# <p align="LEFT">![DESARROLLO]
+# <p align="LEFT">DESARROLLO
 1.	Realizar una investigación individual de cada una de las herramientas empleadas. Sintetice el resultado mediante un cuadro que explique su definición, funcionalidad y casos de uso.
+
 
 |      Herramienta     |      Definición                                                                                                       |      Funcionalidad principal                                                                            |      Casos de uso comunes                                                                                                                      |
 |----------------------|-----------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------|
