@@ -172,6 +172,31 @@ whoami
 
 # Taller Individual.
 
+**Instrucciones:**
+
+- Para esta actividad individual, deberán realizar el trabajo dentro de la subcarpeta ENTREGAS que se encuentra en la sesión actual.
+
+- La entrega final deberá cargarse en un nuevo directorio dentro de ENTREGAS, el cual tendrá el formato ApellidoNombre (ejemplo: PerezJuan). Este directorio deberá ser creado por cada estudiante en el repositorio de GitHub asignado, para lo cual se les otorgarán los permisos de colaboradores necesarios.
+
+**Métrica Clave: Profundidad y Calidad de las Respuestas**
+
+La evaluación de esta actividad se centrará en la profundidad y calidad de sus respuestas. Esto implica lo siguiente:
+
+- Definición y Explicación Detallada: Para cada comando y herramienta empleada, deben proporcionar una definición clara y una explicación exhaustiva de su propósito y funcionamiento.
+
+Ejemplos Prácticos: Incluyan ejemplos concretos y funcionales que ilustren el uso de cada comando o herramienta.
+
+- Variantes y Banderas (Flags): Describan las principales variantes y las banderas (opciones o argumentos) más relevantes de cada comando, explicando su función y cómo modifican el comportamiento del comando.
+
+**Casos de Uso Reales:** Mencionar escenarios o casos de uso comunes donde estas herramientas y comandos son particularmente útiles.
+
+**Asegúrense de que su documentación sea clara, organizada y fácil de entender.**
+
+**NOTA: Incluir imágenes y fuentes en su documentación.**
+
+
+**Puntos a desarrollar**
+
 1. ReAlizar una investigación individual de cada una de las herramientas empleadas. Sintetice el resultado  mediante un cuadro que explique su definición, funcionalidad y casos de uso.
 
 2. Explicar en detalle cada uno de los comandos empleados realizando un desglose del mismo y citando al menos tres alternativas (si aplica) de variantes del comando.
