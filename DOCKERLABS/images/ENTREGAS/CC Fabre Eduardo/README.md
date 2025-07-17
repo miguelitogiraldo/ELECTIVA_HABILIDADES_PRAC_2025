@@ -1,10 +1,10 @@
 ## **Taller Individual**
 
-1.Realizar una investigación individual de cada una de las herramientas empleadas. Sintetice el resultado mediante un cuadro que explique su definición, funcionalidad y casos de uso.
+**1.** Realizar una investigación individual de cada una de las herramientas empleadas. Sintetice el resultado mediante un cuadro que explique su definición, funcionalidad y casos de uso.
 
-2.Explicar en detalle cada uno de los comandos empleados realizando un desglose del mismo y citando al menos tres alternativas (si aplica) de variantes del comando.
+**2.** Explicar en detalle cada uno de los comandos empleados realizando un desglose del mismo y citando al menos tres alternativas (si aplica) de variantes del comando.
 
-3.Realice un diagrama de flujo de todo el procedimiento realizado.
+**3.** Realice un diagrama de flujo de todo el procedimiento realizado.
 
 ## **Desarrollo**
 
@@ -93,4 +93,7 @@
   - `file *`
   - `file -b archivo`
  
-    
+## 3. Diagrama de flujo
+
+
+
