@@ -95,4 +95,4 @@
  
 ## 3. Diagrama de flujo
 
-   DiagramaFlujo
+![Descripción](Imagenes%20Soporte/DiagramaFlujo.jpg)
