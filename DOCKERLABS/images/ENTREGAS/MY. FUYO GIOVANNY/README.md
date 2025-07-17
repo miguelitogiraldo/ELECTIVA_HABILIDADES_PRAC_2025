@@ -154,7 +154,8 @@ Este laboratorio permitió aplicar múltiples técnicas de reconocimiento, escan
 
 ![Escaneo](escaneo%20puertos.png)
 
-![Diagrama de Flujo del CTF]()
+![identificacion](identif%20red.png)
+
 - Diccionarios: `rockyou.txt`, `dirbuster`
 - Imagen descargada en `/Desktop/fotos/vacaciones/imagen.jpg`
 
