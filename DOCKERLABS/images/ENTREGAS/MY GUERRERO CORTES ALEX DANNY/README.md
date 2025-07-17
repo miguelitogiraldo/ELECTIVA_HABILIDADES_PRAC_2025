@@ -13,3 +13,4 @@
 
 2. Explicar en detalle cada uno de los comandos empleados realizando un desglose del mismo y citando al menos tres alternativas (si aplica) de variantes del comando.
 
+![Descripción](Imagenes/Image%201.png)
