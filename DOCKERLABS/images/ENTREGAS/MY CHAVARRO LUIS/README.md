@@ -44,6 +44,11 @@ Se abrio en el navegador: http://172.17.0.2
 
 🔹 DESGLOSE DE COMANDOS UTILIZADOS.
 
+**1. nmap**
+
+Descripción:
+Nmap es una herramienta de escaneo de red utilizada para descubrir hosts y servicios en una red.
+
 ![Descripción](IMAGENES/IMAGEN1.jpg)
 Desglose:
 
@@ -63,6 +68,10 @@ masscan (más rápido para escaneos masivos)
 angry IP scanner (interfaz gráfica)
 unicornscan (escaneo avanzado y flexible)
 
+**2. netcat (nc)**
+
+Descripción:
+Netcat es una herramienta de red para leer y escribir datos a través de conexiones de red usando los protocolos TCP o UDP.
 
 ![Descripción](IMAGENES/IMAGEN2.jpg)
 
@@ -85,6 +94,80 @@ socat (más opciones de redirección y cifrado)
 ncat (versión mejorada de netcat, parte de Nmap)
 telnet (para conexiones simples a puertos TCP)
 
+**3. gobuster**
+
+Descripción:
+Gobuster es una herramienta para fuerza bruta de directorios y archivos en servidores web.
+
+![Descripción](IMAGENES/IMAGEN3.jpg)
+
+Desglose:
+
+dir: Modo de búsqueda de directorios.
+-u: URL objetivo.
+-w: Wordlist a utilizar.
+
+Variantes y alternativas:
+
+gobuster dns -d example.com -w wordlist.txt — Fuerza bruta de subdominios.
+gobuster fuzz -u http://site.com/FUZZ -w wordlist.txt — Fuzzing de rutas personalizadas.
+gobuster dir -u http://192.168.1.10 -x php,txt — Busca archivos con extensiones específicas.
+
+Alternativas:
+
+dirb (herramienta clásica de fuerza bruta web)
+dirsearch (muy rápida y configurable)
+wfuzz (fuzzing avanzado para web)
+
+**4. hydra**
+   
+Descripción:
+Hydra es una herramienta para realizar ataques de fuerza bruta a servicios de autenticación.
+
+![Descripción](IMAGENES/IMAGEN4.jpg)
+
+Desglose:
+
+-l admin: Usuario objetivo.
+-P rockyou.txt: Wordlist de contraseñas.
+192.168.1.10: IP objetivo.
+ssh: Servicio objetivo.
+
+Variantes y alternativas:
+
+hydra -L users.txt -P passwords.txt 192.168.1.10 ftp — Ataque a FTP con múltiples usuarios.
+hydra -s 2222 -l admin -P pass.txt 192.168.1.10 ssh — Especifica un puerto diferente.
+hydra -V -l admin -P pass.txt 192.168.1.10 http-get — Ataque a HTTP GET.
+
+Alternativas:
+
+medusa (similar a hydra, muy rápida)
+ncrack (enfocada en velocidad y escalabilidad)
+patator (modular y flexible para múltiples protocolos)
+
+**5. john (John the Ripper)**
+
+Descripción:
+John the Ripper es una herramienta para descifrar contraseñas mediante ataques de diccionario o fuerza bruta.
+
+![Descripción](IMAGENES/IMAGEN5.jpg)
+
+Desglose:
+
+--wordlist=rockyou.txt: Wordlist a utilizar.
+hash.txt: Archivo con los hashes a descifrar.
+
+Variantes y alternativas:
+
+john --show hash.txt — Muestra las contraseñas crackeadas.
+john --format=raw-md5 hash.txt — Especifica el formato del hash.
+john --incremental hash.txt — Ataque incremental (fuerza bruta pura).
+
+Alternativas:
+
+hashcat (GPU, más rápido y flexible)
+hydra (para servicios en línea)
+crackstation (servicio web para descifrar hashes)
 
 
  🔹 DIAGRAMA
