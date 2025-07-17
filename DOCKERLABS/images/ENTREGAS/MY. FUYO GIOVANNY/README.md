@@ -149,8 +149,11 @@ Este laboratorio permitió aplicar múltiples técnicas de reconocimiento, escan
 ## 🖼️ Fuentes e Imágenes
 
 - Capturas obtenidas de entorno real de laboratorio
+
+![despliegue](despliegue%20maquina.png)
+
 ![Diagrama de Flujo del CTF]()
-![Diagrama de Flujo del CTF]()
+
 ![Diagrama de Flujo del CTF]()
 - Diccionarios: `rockyou.txt`, `dirbuster`
 - Imagen descargada en `/Desktop/fotos/vacaciones/imagen.jpg`
