@@ -216,6 +216,36 @@ sudo /usr/bin/ruby -e 'exec "/bin/bash"': Shell escalada vía Ruby.
 ![Comandos y Variantes](Images/15.png)
 
 ##**DIAGRAMA DE FLUJO DEL PROCEDIMIENTO REALIZADO**
+**graph TD**
+A[Inicio: Máquina Kali lista] --> B[Transferencia de carpeta amor por SCP]
+
+  B --> C[Instalación de Docker]
+
+  C --> D[Despliegue del laboratorio con auto_deploy.sh]
+
+  D --> E[Obtener IP con ip add]
+
+  E --> F[Descubrimiento con netdiscover]
+
+  F --> G[Escaneo de puertos con Nmap]
+
+  G --> H[Fuzzing con Gobuster]
+
+  H --> I[SSH con Hydra]
+
+  I --> J[Ingreso exitoso como Carlota]
+
+  J --> K[Descarga imagen.jpg con SCP]
+
+  K --> L[Identificación del archivo con file]
+
+  L --> M[Extracción con steghide]
+
+  M --> N[Decodificación base64]
+
+  N --> O[Escalada con Ruby y Sudo]
+
+  O --> P[Confirmación con whoami]
 
 ```mermaid
 graph TD
@@ -605,6 +635,8 @@ Procesamiento de archivos o datos en entornos web/API.
 
 Análisis de mensajes codificados en ingeniería inversa o CTF.
 
+![Dominando el Arte](Images/26.png)
+
 ###**11. sudo /usr/bin/ruby -e 'exec "/bin/bash"'**
 
 *Definición y Explicación Detallada*:
@@ -642,7 +674,7 @@ Uso controlado de intérpretes para análisis o scripting.
 
 Acceso administrativo en retos CTF cuando Ruby está permitido.
 
-![Dominando el Arte](Images/26.png)
+
 ![Herramientas de Ciberseguridad y sus Aplicaciones](Images/27.png)
 
 ![Amor](Images/28.png)
@@ -656,4 +688,6 @@ Acceso administrativo en retos CTF cuando Ruby está permitido.
 •	Gobuster: https://github.com/OJ/gobuster
 •	scp man: https://man7.org/linux/man-pages/man1/scp.1.html
 •	Ruby exec usage: https://ruby-doc.org/core-2.7.0/Kernel.html#method-i-exec
+
+
 ![Amor](Images/29.png)
