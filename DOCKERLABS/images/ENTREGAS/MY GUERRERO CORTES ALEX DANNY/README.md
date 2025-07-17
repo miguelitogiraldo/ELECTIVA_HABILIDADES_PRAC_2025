@@ -24,7 +24,27 @@
 | Comando | Desglose | Explicación | Variantes (si aplica) |
 |---------|----------|-------------|-----------------------|
 | `nmap -sV -Pn -p- 172.19.0.3` | `-sV`: detección de versión de servicios <br>`-Pn`: omite ping discovery <br>`-p-`: todos los puertos (1-65535) <br>`IP`: objetivo | Realiza escaneo completo de puertos y detecta versiones de servicios, incluso si el host filtra ping. | - `nmap -A <IP>` (escaneo agresivo) <br> - `nmap -sS <IP>` (SYN scan) <br> - `nmap -T4 <IP>` (ajusta velocidad) |
+
+![Descripción](Imagenes/Imagen%203.jpg)
+
+| Comando | Desglose | Explicación | Variantes (si aplica) |
+|---------|----------|-------------|-----------------------|
 | `tcpdump -i eth0 -w captura.pcap` | `-i eth0`: interfaz de red <br>`-w captura.pcap`: escribe captura en archivo | Captura el tráfico de red en la interfaz especificada y lo guarda en un archivo para análisis posterior. | - `tcpdump -nn` (no resuelve nombres) <br> - `tcpdump port 80` (filtra por puerto) <br> - `tcpdump -r captura.pcap` (lee archivo) |
+
+![Descripción](Imagenes/Imagen%204.jpg)
+
+| Comando | Desglose | Explicación | Variantes (si aplica) |
+|---------|----------|-------------|-----------------------|
 | `hydra -l admin -P rockyou.txt ftp://172.19.0.3` | `-l admin`: usuario objetivo <br>`-P rockyou.txt`: diccionario de contraseñas <br>`ftp://IP`: servicio y objetivo | Realiza ataque de fuerza bruta para encontrar la contraseña del usuario especificado en el servicio FTP. | - `-L usuarios.txt` (lista de usuarios) <br> - `-s <puerto>` (define puerto) <br> - `-t 16` (define número de tareas en paralelo) |
+
+![Descripción](Imagenes/Imagen%205.jpg)
+
+| Comando | Desglose | Explicación | Variantes (si aplica) |
+|---------|----------|-------------|-----------------------|
 | `file imagen.jpg` | `file`: comando de identificación de tipos de archivo <br>`imagen.jpg`: archivo objetivo | Detecta el tipo de contenido de un archivo (MIME, tipo, formato). | - `file *` (todos los archivos del directorio) <br> - `file -i imagen.jpg` (solo MIME) <br> - `file -z archivo` (archivos comprimidos) |
+
+![Descripción](Imagenes/Imagen%206.jpg)
+
+| Comando | Desglose | Explicación | Variantes (si aplica) |
+|---------|----------|-------------|-----------------------|
 | `steghide extract -sf imagen.jpg` | `extract`: orden de extracción <br>`-sf imagen.jpg`: archivo de entrada | Extrae el contenido oculto en un archivo mediante esteganografía. | - `steghide embed -cf imagen.jpg -ef secreto.txt` (oculta un archivo) <br> - `steghide info imagen.jpg` (muestra info del contenedor) <br> - `steghide --help` (ayuda) |
