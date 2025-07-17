@@ -42,6 +42,51 @@ Se abrio en el navegador: http://172.17.0.2
 | steghide | Herramienta de esteganografía para ocultar/extractar datos en archivos de imagen o audio. | Inserta o recupera archivos dentro de imágenes (JPG, BMP) o audio (WAV, AU). | Captura de bandera (CTF), análisis forense, comunicaciones encubiertas. |
 | base64 | Método de codificación de datos que convierte binarios en texto ASCII legible. | Codifica/decodifica datos para transferencia segura o almacenamiento textual. | Decodificación de mensajes, análisis forense, manipulación de archivos en texto plano. |
 
+🔹 DESGLOSE DE COMANDOS UTILIZADOS.
+
+![Descripción](IMAGENES/IMAGEN1.jpg)
+Desglose:
+
+-sS: Realiza un escaneo SYN (stealth scan), menos detectable.
+-A: Habilita la detección de sistema operativo, versión, scripts y traceroute.
+192.168.1.10: IP objetivo.
+
+Variantes y alternativas:
+
+nmap -sV 192.168.1.10 — Detecta versiones de servicios.
+nmap -O 192.168.1.10 — Detecta el sistema operativo.
+nmap -p- 192.168.1.10 — Escanea todos los puertos.
+
+Alternativas:
+
+masscan (más rápido para escaneos masivos)
+angry IP scanner (interfaz gráfica)
+unicornscan (escaneo avanzado y flexible)
+
+
+![Descripción](IMAGENES/IMAGEN2.jpg)
+
+ Desglose:
+
+-n: No resuelve nombres DNS.
+-v: Modo verbose (detallado).
+192.168.1.10: IP objetivo.
+80: Puerto objetivo.
+
+Variantes y alternativas:
+
+nc -lvp 4444 — Escucha en el puerto 4444 (modo servidor).
+nc -u 192.168.1.10 53 — Usa UDP en vez de TCP.
+nc -zv 192.168.1.10 1-1000 — Escaneo de puertos (sin enviar datos).
+
+Alternativas:
+
+socat (más opciones de redirección y cifrado)
+ncat (versión mejorada de netcat, parte de Nmap)
+telnet (para conexiones simples a puertos TCP)
+
+
+
  🔹 DIAGRAMA
 
  ![Descripción](IMAGENES/Imagen%201.jpg)
