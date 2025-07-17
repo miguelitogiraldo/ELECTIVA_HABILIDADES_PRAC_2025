@@ -1,6 +1,6 @@
-## *Taller Individual*
+                                                        ## *Taller Individual*
 
-1.	Realizar una investigación individual de cada una de las herramientas empleadas. Sintetice el resultado mediante un cuadro que explique su definición, funcionalidad y casos de uso.
+**1.**	Realizar una investigación individual de cada una de las herramientas empleadas. Sintetice el resultado mediante un cuadro que explique su definición, funcionalidad y casos de uso.
 
 | Herramienta | Definición                                                 | Funcionalidad principal                                      | Casos de uso típicos                                                      |
 |-------------|------------------------------------------------------------|---------------------------------------------------------------|---------------------------------------------------------------------------|
@@ -10,9 +10,9 @@
 | file        | Comando para identificar tipo de archivo                    | Lee la cabecera y metadatos para clasificar archivos          | Forense digital, scripts de procesamiento de archivos                    |
 | steghide    | Herramienta de esteganografía                               | Inserta o extrae datos ocultos en ficheros (imágenes, audio)  | CTF, ocultación de información, análisis forense                         |
 
-2.	Explicar en detalle cada uno de los comandos empleados realizando un desglose del mismo y citando al menos tres alternativas (si aplica) de variantes del comando. 3. Realice un diagrama de flujo de todo el procedimiento realizado.
+**2.**	Explicar en detalle cada uno de los comandos empleados realizando un desglose del mismo y citando al menos tres alternativas (si aplica) de variantes del comando. 3. Realice un diagrama de flujo de todo el procedimiento realizado.
 
-2.1. Despliegue del laboratorio
+**2.1.** Despliegue del laboratorio
 
 ![Descripción](imagen/RETO%20AMOR%20IMAGEN%201.jpg)
 
@@ -47,7 +47,7 @@ docker run: ejecuta un contenedor.
 
     docker run --volume /host:/container alpine
 
-2.2. Escaneo
+**2.2.** Escaneo
 
 ![Descripción](imagen/RETO%20AMOR%20IMAGEN%203.jpg)
 
@@ -81,7 +81,7 @@ nmap: escáner.
 
     nmap --script vuln
 
-2.3. Ataque de fuerza bruta con Hydra
+**2.3.** Ataque de fuerza bruta con Hydra
 
 ![Descripción](imagen/RETO%20AMOR%20IMAGEN%205.jpg)
 
@@ -103,7 +103,7 @@ ftp://: protocolo objetivo.
 
     hydra -s 2222 -l user -P pass.txt ssh://target
 
-2.4. Comprobación de archivos
+**2.4.** Comprobación de archivos
 
 ![Descripción](imagen/RETO%20AMOR%20IMAGEN%206.jpg)
 
@@ -119,7 +119,7 @@ Imagen.jpg: archivo objetivo.
 
     file -i archivo
 
-2.5. Esteganografía
+**2.5.** Esteganografía
 
 ![Descripción](imagen/RETO%20AMOR%20IMAGEN%207.jpg)
 
@@ -137,6 +137,6 @@ extract: modo extracción.
 
     steghide extract -sf imagen.jpg -p password
 
-3. Realice un diagrama de flujo de todo el procedimiento realizado.
+**3.** Realice un diagrama de flujo de todo el procedimiento realizado.
 
 ![Descripción](imagen/Diagrama%20de%20flujo.jpg)
