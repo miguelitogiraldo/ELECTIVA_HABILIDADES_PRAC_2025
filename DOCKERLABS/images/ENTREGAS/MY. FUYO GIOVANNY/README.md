@@ -152,7 +152,7 @@ Este laboratorio permitió aplicar múltiples técnicas de reconocimiento, escan
 
 ![despliegue](despliegue%20maquina.png)
 
-![Diagrama de Flujo del CTF]()
+![Escaneo](escaneo%20puertos.png)
 
 ![Diagrama de Flujo del CTF]()
 - Diccionarios: `rockyou.txt`, `dirbuster`
