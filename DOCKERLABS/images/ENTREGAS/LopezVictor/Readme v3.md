@@ -1,6 +1,6 @@
-<h5>**TALLER INDIVIDUAL**<h5>
+#**<h6> 🐳 Taller Individual: Análisis del Laboratorio DockerLabs - "Reto Amor"<h6>**
 
-**1. INVESTIGACIÓN DE HERRAMIENTAS EMPLEADAS**
+## <h5>🔍 1. Cuadro Comparativo de Herramientas Empleadas <h5>
 | **Herramienta** | **Definición** | **Funcionalidad Principal** | **Casos de Uso Comunes** |
 |----------------|----------------|-----------------------------|---------------------------|
 | `scp`          | Herramienta de copia segura entre equipos a través de SSH. | Copiar archivos/directorios entre sistemas locales y remotos. | Transferencia de archivos entre servidores, backup remoto. |
@@ -21,280 +21,243 @@
 
 ![Herramientas Utilizadas](Images/1.png)
 
-**EXPLICACIÓN DETALLADA DE COMANDOS Y VARIANTES**
-
-**scp -r amor kali@192.168.1.12:/home/kali/Documents/**
-
-Descripción: Copia recursivamente el directorio amor al sistema remoto.
-
-Variantes:
+##**🧠 EXPLICACIÓN DETALLADA DE COMANDOS Y VARIANTES**
+### 📦 Transferencia con `scp`
 
 ```bash
-scp archivo.txt user@host:/ruta/: Copia un archivo a un host remoto.
+scp -r amor kali@192.168.1.12:/home/kali/Documents/
 ```
 
-```bash
-scp user@host:/archivo.txt ./: Copia desde remoto a local.
-```
+- **Descripción**: Copia recursivamente el directorio `amor` al sistema remoto `kali`.
+- **Variantes**:
+  - `scp archivo.txt user@host:/ruta/`
+  - `scp user@host:/archivo.txt ./`
+  - `scp -P 2222 archivo.txt user@host:/
 
-```bash
-scp -P 2222 archivo.txt user@host:/: Usa un puerto SSH personalizado.
-```
 ![Copia Segura al Sistema Remoto](Images/2.png)
 
-
-**sudo apt install docker.io**
-
-Instala Docker desde los repositorios oficiales
-
-Variantes:
+### 🐳 **Instalación de Docker**
 
 ```bash
-sudo apt-get install docker-ce: Versión Community Edition.
+sudo apt install docker.io
 ```
 
-```bash
-curl -fsSL https://get.docker.com | sh: Instalación vía script oficial.
-```
-
-```bash
-snap install docker: Instalación vía Snap (Ubuntu).
-```
+- **Descripción**: Instala Docker desde los repositorios oficiales de Ubuntu.
+- **Variantes**:
+  - `sudo apt-get install docker-ce`
+  - `curl -fsSL https://get.docker.com | sh`
+  - `snap install docker`
 ![Métodos de Instalación de Docker](Images/3.png)
 
-**unzip archivo.zip**
-
-Descomprime archivos comprimidos en ZIP.
-
-Variantes:
+### 📂 Descompresión de Archivos
 
 ```bash
-unzip -l archivo.zip: Lista contenido sin extraer.
+unzip nombre_maquina.zip
 ```
 
-```bash
-unzip archivo.zip -d /ruta: Especifica carpeta destino.
-```
-
-```bash
-unzip -o archivo.zip: Sobrescribe sin preguntar.
-```
+- **Descripción**: Extrae el contenido del archivo ZIP.
+- **Variantes**:
+  - `unzip -l archivo.zip`
+  - `unzip archivo.zip -d /ruta`
+  - `unzip -o archivo.zip`
+  - 
 ![Opciones de Descompresión](Images/4.png)
 
-**chmod +x auto_deploy.sh**
-
-Otorga permisos de ejecución.
-
-Variantes:
+### 🔐 Cambiar permisos con `chmod`
 
 ```bash
-chmod 755 archivo: Lectura y ejecución para todos.
+chmod +x auto_deploy.sh
 ```
 
-```bash
-chmod u+x archivo: Solo usuario puede ejecutar.
-```
+- **Descripción**: Permite ejecutar el script `auto_deploy.sh`.
+- **Variantes**:
+  - `chmod 755 archivo`
+  - `chmod u+x archivo`
+  - `chmod -x archivo`
 
-```bash
-chmod -x archivo: Quita permisos de ejecución.
-```
 ![Variantes del Comando Chmod](Images/5.png)
 
-**ip add**
-
-Muestra interfaces de red y direcciones IP.
-
-Variantes:
+### 🌐 Visualizar Interfaces de Red
 
 ```bash
-ip a: Versión abreviada.
+ip add
 ```
-
-ifconfig: Comando clásico (menos actualizado).
-
-```bash
-ip addr show docker0: Interfaz específica.
-```
+- **Descripción**: Muestra interfaces de red y direcciones IP.
+- **Variantes**:
+  - `ip a`
+  - `ip addr show docker0`
+  - `ifconfig`
+    
 ![Metodos para Mostrar Interfaces de Red](Images/6.png)
 
-**sudo netdiscover -i docker0 -r 172.17.0.0/24**
+### 🌍 **Descubrimiento de red**
 
-Descubre dispositivos activos por ARP.
+```bash
+sudo netdiscover -i docker0 -r 172.17.0.0/24
+```
 
-Variantes:
-
+-**Descripción**: Descubre dispositivos activos por ARP.
+-**Variantes**:
 -i eth0: Especifica interfaz.
-
 -r 192.168.1.0/24: Segmento personalizado.
-
 -P: Modo pasivo (sin enviar ARP).
+
 ![Descubrimiento Dispositivos Activos en la Red](Images/7.png)
 
-**sudo nmap --min-rate 5000 -p- -sS -sV 172.17.0.2**
+### 📡 **Escaneo de servicios con Nmap**
 
-Escaneo SYN completo de todos los puertos, con detección de servicios.
+```bash
+sudo nmap --min-rate 5000 -p- -sS -sV 172.17.0.2
+```
 
-Variantes:
-
+-**Descripción**:Escaneo SYN completo de todos los puertos, con detección de servicios.
+-**Variantes**:
 -p 1-1000: Escaneo limitado a primeros puertos.
-
 -A: Detecta OS y versión de servicios.
-
 -T4: Ajusta la velocidad del escaneo.
 ![Componentes de un Escaneo de Red Efectivo](Images/8.png)
 
-**gobuster dir -u http://172.17.0.2/ -w ...**
+### 🕸 Fuzzing Web con Gobuster
 
-Enumeración de directorios web.
+```bash
+gobuster dir -u http://172.17.0.2/ -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt
+```
+-**Descripción**:Enumeración de directorios web.
 
-Variantes:
-
+-**Variantes**:
 -x php,html: Busca extensiones específicas.
-
 -t 50: Número de hilos simultáneos.
-
 -o salida.txt: Guarda resultados en archivo.
+
 ![Proceso de Enumeración de Directorios Web](Images/9.png)
 
-**hydra -l carlota -P rockyou.txt ssh://172.17.0.2 -t 10**
+### 🔓 Ataque de Fuerza Bruta con Hydra
 
-Ataque de fuerza bruta al servicio SSH.
+```bash
+hydra -l carlota -P rockyou.txt ssh://172.17.0.2 -t 10
+```
 
-Variantes:
+-**Descripción**:Ataque de fuerza bruta al servicio SSH.
 
+-**Variantes**:
 -L usuarios.txt -P claves.txt: Lista de usuarios y contraseñas.
-
 -f: Detenerse en el primer éxito.
-
 -V: Muestra cada intento en consola.
+
 ![Proceso de Ataque de Fuerza Bruta SSH](Images/10.png)
 
 
-**scp carlota@172.17.0.2:/ruta/imagen.jpg /home/kali/...**
-
-Descarga la imagen del host remoto.
-
-Ver variantes ya descritas en el primer comando scp.
-
-**bash
-file imagen.jpg**
-
-Detecta el tipo de archivo.
-
-Variantes:
+### 📥 Descarga Remota con `scp`
 
 ```bash
-file *: Detecta todos los archivos del directorio.
+scp carlota@172.17.0.2:/home/carlota/Desktop/fotos/vacaciones/imagen.jpg /home/kali/Documents/amor
 ```
 
-```bash
-file -i imagen.jpg: Muestra tipo MIME.
-```
+-**Descripción**:Descarga la imagen del host remoto.
+-**Variantes**:Ver variantes ya descritas en el primer comando scp.
+
+### 🧪 Análisis de tipo de archivo
 
 ```bash
-file -b imagen.jpg: Salida sin nombre de archivo.
+file imagen.jpg
 ```
+
+-**Descripción**:Detecta el tipo de archivo.
+-**Variantes**:
+-file *: Detecta todos los archivos del directorio.
+-file -i imagen.jpg: Muestra tipo MIME.
+-file -b imagen.jpg: Salida sin nombre de archivo.
+
 ![Comandos para la Gestión de Archivos](Images/11.png)
 
-**steghide --extract -sf imagen.jpg**
+### 🕵️ Esteganografía con Steghide
 
-Extrae datos ocultos dentro de imágenes.
-
-Variantes:
-
+```bash
+steghide --extract -sf imagen.jpg
+```
+-**Descripción**:Extrae datos ocultos dentro de imágenes.
+-**Variantes**:
 --info -sf archivo.jpg: Información del archivo.
-
 --embed -cf cover.jpg -ef secret.txt: Inserta secreto.
-
 --extract -sf archivo.jpg -p clave: Usa contraseña.
+
 ![Proceso de Esteganografía](Images/12.png)
 
-**echo "ZXNsYWNhc2FkZXBpbnlwb24=" | base64 -d; echo**
+### 🔐 Decodificación con Base64
 
-Decodifica base64.
-
-Variantes:
-
-base64 archivo.txt: Codifica archivo.
-
-base64 -d archivo.txt: Decodifica archivo.
-
-echo -n ... | base64: Codifica sin salto de línea.
+```bash
+echo "ZXNsYWNhc2FkZXBpbnlwb24=" | base64 -d; echo
+```
+-**Descripción**: Decodifica base64.
+-**Variantes**:
+-base64 archivo.txt: Codifica archivo.
+-base64 -d archivo.txt: Decodifica archivo.
+-echo -n ... | base64: Codifica sin salto de línea.
 
 ![Variantes Base64](Images/13.png)
 
 
 
-**sudo -l**
-
-Verifica comandos que se pueden ejecutar con sudo.
+### 🧑‍💻 Escalada con Sudo + Ruby
 
 ```bash
 sudo /usr/bin/ruby -e 'exec "/bin/bash"': Shell escalada vía Ruby.
 ```
 
-Variantes comunes de sudo:
+-**Descripción**:Verifica comandos que se pueden ejecutar con sudo.
+-**Variantes**: comunes de sudo:
+-sudo su: Cambia a root.
+-sudo -i: Shell de root interactiva.
+-sudo -u usuario comando: Ejecuta como otro usuario.
 
-```bash
-sudo su: Cambia a root.
-```
-
-```bash
-sudo -i: Shell de root interactiva.
-```
-
-```bash
-sudo -u usuario comando: Ejecuta como otro usuario.
-```
 ![Estructuras Comando Sudo](Images/14.png)
 
 ![Comandos y Variantes](Images/15.png)
 
-**DIAGRAMA DE FLUJO DEL PROCEDIMIENTO REALIZADO**
+##**DIAGRAMA DE FLUJO DEL PROCEDIMIENTO REALIZADO**
 
-**graph TD**
+```mermaid
+graph TD
+  A[Inicio: Máquina Kali lista] --> B[Transferencia de carpeta amor por SCP]
 
-A[Inicio: Máquina Kali lista] --> B[Transferencia de carpeta amor por SCP]
+  B --> C[Instalación de Docker]
 
-B --> C[Instalación de Docker]
+  C --> D[Despliegue del laboratorio con auto_deploy.sh]
 
-C --> D[Despliegue del laboratorio con script]
+  D --> E[Obtener IP con ip add]
 
-D --> E[Identificar IP de contenedor con ip add]
+  E --> F[Descubrimiento con netdiscover]
 
-E --> F[Descubrimiento de hosts con netdiscover]
+  F --> G[Escaneo de puertos con Nmap]
 
-F --> G[Escaneo de puertos con nmap]
+  G --> H[Fuzzing con Gobuster]
 
-G --> H[Fuzzing de sitio web con gobuster]
+  H --> I[SSH con Hydra]
 
-H --> I[Bruteforce con Hydra a SSH]
+  I --> J[Ingreso exitoso como Carlota]
 
-I --> J[Conexión SSH exitosa como carlota]
+  J --> K[Descarga imagen.jpg con SCP]
 
-J --> K[Navegación a imagen.jpg]
+  K --> L[Identificación del archivo con file]
 
-K --> L[Descarga con SCP]
+  L --> M[Extracción con steghide]
 
-L --> M[Revisión del archivo con file]
+  M --> N[Decodificación base64]
 
-M --> N[Extracción con steghide]
+  N --> O[Escalada con Ruby y Sudo]
 
-N --> O[Decodificación con base64]
-
-O --> P[Escalada de privilegios con sudo y ruby]
-
-P --> Q[Fin: whoami]
+  O --> P[Confirmación con whoami]
+```
 ![Proceso de Pruebas](Images/16.png)
 
-**ANÁLISIS DETALLADO DE HERRAMIENTAS Y COMANDOS**
+##**ANÁLISIS DETALLADO DE HERRAMIENTAS Y COMANDOS**
 
-**1. scp (Secure Copy Protocol)**
+###**1. scp (Secure Copy Protocol)**
 
-Definición y Explicación Detallada:
+*Definición y Explicación Detallada*:
 scp es una herramienta de línea de comandos que permite transferir archivos o directorios entre sistemas de forma segura, utilizando el protocolo SSH para el cifrado de la comunicación. Es ideal para enviar datos confidenciales entre un host local y uno remoto o entre dos hosts remotos.
 
-Ejemplo Práctico:
+*Ejemplo Práctico*:
 
 bash
 
@@ -304,7 +267,7 @@ CopiarEditar
 scp archivo.txt user@192.168.1.10:/home/user/
 ```
 
-Variantes y Flags:
+*Variantes y Flags*:
 
 -r: Copia directorios de forma recursiva.
 
@@ -314,21 +277,22 @@ Variantes y Flags:
 
 -v: Muestra información detallada sobre la transferencia (modo verbose).
 
-Casos de Uso Reales:
+*Casos de Uso Reales*:
 
 Transferencia de archivos de configuración entre servidores.
 
 Envío de scripts de automatización o herramientas a entornos de pruebas.
 
 Copia remota de imágenes, respaldos o resultados de escaneo.
+
 ![Transferencia Segura de Archivos con SCP](Images/17.png)
 
-**2. docker**
+###**2. docker**
 
-Definición y Explicación Detallada:
+*Definición y Explicación Detallada*:
 Docker es una plataforma de virtualización de contenedores que permite construir, ejecutar y administrar aplicaciones en entornos aislados. Cada contenedor incluye la aplicación y todas sus dependencias, asegurando portabilidad y consistencia entre entornos.
 
-Ejemplo Práctico:
+*Ejemplo Práctico*:
 
 bash
 
@@ -338,7 +302,7 @@ CopiarEditar
 docker run -it ubuntu bash
 ```
 
-Variantes y Flags:
+*Variantes y Flags*:
 
 run: Inicia un nuevo contenedor.
 
@@ -350,21 +314,22 @@ images: Muestra las imágenes disponibles localmente.
 
 -p: Publica puertos del contenedor al host.
 
-Casos de Uso Reales:
+*Casos de Uso Reales*:
 
 Simulación de laboratorios de hacking ético.
 
 Desarrollo y despliegue de microservicios en producción.
 
 Creación de entornos de pruebas reproducibles.
+
 ![Ciclo de Vida de los Contenedores Docker](Images/18.png)
 
-**3. netdiscover**
+###**3. netdiscover**
 
-Definición y Explicación Detallada:
+*Definición y Explicación Detallada*:
 netdiscover es una herramienta de descubrimiento de red que utiliza peticiones ARP para identificar hosts activos en una red local. Es útil cuando se desconoce el rango exacto de IPs en uso y se desea hacer un reconocimiento pasivo.
 
-Ejemplo Práctico:
+*Ejemplo Práctico*:
 
 bash
 
@@ -374,7 +339,7 @@ CopiarEditar
 netdiscover -i eth0 -r 192.168.1.0/24
 ```
 
-Variantes y Flags:
+*Variantes y Flags*:
 
 -i <interfaz>: Define la interfaz de red a usar.
 
@@ -384,7 +349,7 @@ Variantes y Flags:
 
 -s <segundos>: Intervalo de escaneo.
 
-Casos de Uso Reales:
+*Casos de Uso Reales*:
 
 Reconocimiento inicial antes de un escaneo activo.
 
@@ -394,12 +359,12 @@ Uso en entornos restringidos donde se necesita evitar alertas.
 
 ![Proceso de Descubrimiento de Red](Images/19.png)
 
-**4. nmap (Network Mapper)**
+###**4. nmap (Network Mapper)**
 
-Definición y Explicación Detallada:
+*Definición y Explicación Detallada*:
 nmap es una poderosa herramienta de escaneo de redes que permite descubrir dispositivos conectados, puertos abiertos, servicios en ejecución y versiones de software. También puede detectar el sistema operativo del objetivo.
 
-Ejemplo Práctico:
+*Ejemplo Práctico*:
 
 bash
 
@@ -409,7 +374,7 @@ CopiarEditar
 nmap -sS -p- -T4 192.168.1.10
 ```
 
-Variantes y Flags:
+*Variantes y Flags*:
 
 -sS: Escaneo SYN (rápido y furtivo).
 
@@ -421,21 +386,22 @@ Variantes y Flags:
 
 -sV: Detección de versiones de servicios.
 
-Casos de Uso Reales:
+*Casos de Uso Reales*:
 
 Auditoría de seguridad de redes.
 
 Identificación de puertos vulnerables o mal configurados.
 
 Evaluación de exposición de servicios antes de una intrusión.
+
 ![Herramientas de Nmap para Seguridad de Red](Images/20.png)
 
-**5. hydra**
+###**5. hydra**
 
-Definición y Explicación Detallada:
+*Definición y Explicación Detallada*:
 hydra es una herramienta de ataque por fuerza bruta que permite probar múltiples combinaciones de nombres de usuario y contraseñas contra servicios de red como SSH, FTP, HTTP, entre otros. Es útil en pruebas de penetración para evaluar la robustez de sistemas de autenticación.
 
-Ejemplo Práctico:
+*Ejemplo Práctico*:
 
 bash
 
@@ -445,7 +411,7 @@ CopiarEditar
 hydra -l admin -P passwords.txt ssh://192.168.1.10
 ```
 
-Variantes y Flags:
+*Variantes y Flags*:
 
 -l: Usuario objetivo.
 
@@ -457,21 +423,22 @@ Variantes y Flags:
 
 -f: Detiene el ataque al encontrar la primera contraseña válida.
 
-Casos de Uso Reales:
+*Casos de Uso Reales*:
 
 Evaluación de credenciales débiles en servidores de prueba.
 
 Competencias de seguridad informática (CTFs).
 
 Validación de políticas de seguridad de contraseñas
+
 ![Analisis Integral de Hydra](Images/21.png)
 
-**6. gobuster**
+###**6. gobuster**
 
-Definición y Explicación Detallada:
+*Definición y Explicación Detallada*:
 gobuster es una herramienta de fuerza bruta escrita en Go para realizar descubrimiento de contenido web. Permite enumerar directorios y archivos ocultos en aplicaciones web mediante diccionarios (wordlists), útil en fases de reconocimiento.
 
-Ejemplo Práctico:
+*Ejemplo Práctico*:
 
 bash
 
@@ -481,7 +448,7 @@ CopiarEditar
 gobuster dir -u http://172.17.0.2/ -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt
 ```
 
-Variantes y Flags:
+*Variantes y Flags*:
 
 dir: Modo de búsqueda de directorios.
 
@@ -493,21 +460,22 @@ dir: Modo de búsqueda de directorios.
 
 -t <hilos>: Número de hilos paralelos (mayor velocidad).
 
-Casos de Uso Reales:
+*Casos de Uso Reales*:
 
 Enumeración de rutas ocultas en servidores web.
 
 Descubrimiento de paneles de administración o archivos sensibles.
 
 Soporte en pruebas de penetración web.
+
 ![Componentes de la Herramienta](Images/22.png)
 
-**7. ssh (Secure Shell)**
+###**7. ssh (Secure Shell)**
 
 Definición y Explicación Detallada:
 ssh es un protocolo criptográfico que permite la conexión remota segura a otro sistema. Proporciona un canal encriptado a través del cual se puede acceder a la terminal de un servidor o enviar comandos de forma remota.
 
-Ejemplo Práctico:
+*Ejemplo Práctico*:
 
 bash
 
@@ -517,7 +485,7 @@ CopiarEditar
 ssh carlota@172.17.0.2
 ```
 
-Variantes y Flags:
+*Variantes y Flags*:
 
 -p <puerto>: Conectar por un puerto diferente al 22.
 
@@ -527,21 +495,22 @@ Variantes y Flags:
 
 -X: Reenvío de sesiones gráficas (X11).
 
-Casos de Uso Reales:
+*Casos de Uso Reales*:
 
 Administración de servidores remotos.
 
 Automatización de tareas vía scripts.
 
 Acceso remoto a sistemas en entornos de red seguros.
+
 ![Estructura SSH](Images/23.png)
 
-**8. file**
+###**8. file**
 
-Definición y Explicación Detallada:
+*Definición y Explicación Detallada*:
 file es una utilidad de línea de comandos que detecta el tipo de archivo analizando su contenido (magic numbers), en lugar de confiar únicamente en su extensión. Es útil para identificar binarios, imágenes, documentos, etc.
 
-Ejemplo Práctico:
+*Ejemplo Práctico*:
 
 bash
 
@@ -551,7 +520,7 @@ CopiarEditar
 file imagen.jpg
 ```
 
-Variantes y Flags:
+*Variantes y Flags*:
 
 -b: Muestra solo el tipo del archivo, sin el nombre.
 
@@ -559,21 +528,22 @@ Variantes y Flags:
 
 -z: Examina el contenido de archivos comprimidos.
 
-Casos de Uso Reales:
+*Casos de Uso Reales*:
 
 Validación forense de archivos sospechosos.
 
 Confirmación de formato real de un archivo.
 
 Inspección previa al análisis esteganográfico.
+
 ![Estructura SSH](Images/24.png)
 
-**9. steghide**
+###**9. steghide**
 
-Definición y Explicación Detallada:
+*Definición y Explicación Detallada*:
 steghide es una herramienta de esteganografía que permite ocultar y extraer datos (como archivos de texto o claves) dentro de imágenes o archivos de audio. Es especialmente útil en contextos de análisis forense o CTF.
 
-Ejemplo Práctico:
+*Ejemplo Práctico*:
 
 bash
 
@@ -583,7 +553,7 @@ CopiarEditar
 steghide --extract -sf imagen.jpg
 ```
 
-Variantes y Flags:
+*Variantes y Flags*:
 
 --embed -cf <cover> -ef <archivo>: Oculta un archivo dentro de otro.
 
@@ -593,21 +563,22 @@ Variantes y Flags:
 
 --info: Muestra metadatos del archivo steganografiado.
 
-Casos de Uso Reales:
+*Casos de Uso Reales*:
 
 Ocultamiento de mensajes sensibles en entornos restringidos.
 
 Recuperación de información secreta durante CTFs o retos de seguridad.
 
 Análisis en investigaciones digitales y forenses.
+
 ![Dominando el Arte](Images/25.png)
 
-**10. base64**
+###**10. base64**
 
-Definición y Explicación Detallada:
+*Definición y Explicación Detallada*:
 base64 es una utilidad de codificación que transforma datos binarios en texto ASCII legible, útil para transmitir datos a través de medios que solo manejan texto. También se usa para ocultar contenido o manipular archivos en texto plano.
 
-Ejemplo Práctico:
+*Ejemplo Práctico*:
 
 bash
 
@@ -617,7 +588,7 @@ CopiarEditar
 echo "ZXNsYWNhc2FkZXBpbnlwb24=" | base64 -d; echo
 ```
 
-Variantes y Flags:
+*Variantes y Flags*:
 
 -d: Decodifica una cadena base64.
 
@@ -625,7 +596,7 @@ Variantes y Flags:
 
 -i <archivo>: Codifica/decodifica archivo directamente.
 
-Casos de Uso Reales:
+*Casos de Uso Reales*:
 
 Decodificación de claves o tokens en pruebas de penetración.
 
@@ -633,12 +604,12 @@ Procesamiento de archivos o datos en entornos web/API.
 
 Análisis de mensajes codificados en ingeniería inversa o CTF.
 
-11. sudo /usr/bin/ruby -e 'exec "/bin/bash"'
+###**11. sudo /usr/bin/ruby -e 'exec "/bin/bash"'**
 
-Definición y Explicación Detallada:
+*Definición y Explicación Detallada*:
 En este contexto, se utiliza sudo para ejecutar el intérprete de Ruby con privilegios elevados. La opción -e permite ejecutar código directamente como argumento. El código 'exec "/bin/bash"' reemplaza el proceso actual con un shell Bash, otorgando acceso privilegiado si sudo está autorizado.
 
-Ejemplo Práctico:
+*Ejemplo Práctico*:
 
 bash
 
@@ -648,7 +619,7 @@ CopiarEditar
 sudo /usr/bin/ruby -e 'exec "/bin/bash"'
 ```
 
-Variantes y Flags:
+*Variantes y Flags*:
 
 ```bash
 sudo -l: Lista comandos permitidos para el usuario.
@@ -662,13 +633,14 @@ sudo -u <usuario> comando: Ejecuta comando como otro usuario.
 ruby -e: Ejecuta expresiones Ruby desde línea de comandos.
 ```
 
-Casos de Uso Reales:
+*Casos de Uso Reales*:
 
 Escalada de privilegios en sistemas mal configurados.
 
 Uso controlado de intérpretes para análisis o scripting.
 
 Acceso administrativo en retos CTF cuando Ruby está permitido.
+
 ![Dominando el Arte](Images/26.png)
 ![Herramientas de Ciberseguridad y sus Aplicaciones](Images/27.png)
 
