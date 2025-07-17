@@ -1,8 +1,12 @@
 **Mayor DIEGO A. ESMERAL M.**
 
+![Diagrama de Flujo](AMOR.png)
+
 # 🧪 Reto Amor - DockerLabs
 
 Este repositorio documenta el desarrollo completo del laboratorio **Reto Amor** de la plataforma [DockerLabs.es](https://dockerlabs.es/), nivel **Fácil**. El objetivo fue desplegar una máquina vulnerable en Docker, realizar tareas de reconocimiento, explotación y escalamiento de privilegios mediante herramientas de hacking ético.
+
+
 
 ---
 
@@ -93,5 +97,12 @@ Decodificar contraseña y escalar privilegios a root.
 
 DIAGRAMA DE FLUJO
 
-![Diagrama de Flujo](AMOR.png)
+
+
+![FOTO](https://github.com/jaiderospina/ELECTIVA_HABILIDADES_PRAC_2025/blob/main/DOCKERLABS/images/foto.jpg?raw=true)
+
+
+
+
+
 
