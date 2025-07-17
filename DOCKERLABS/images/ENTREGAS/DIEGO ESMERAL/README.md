@@ -93,5 +93,5 @@ Decodificar contraseña y escalar privilegios a root.
 
 DIAGRAMA DE FLUJO
 
-![Diagrama de Flujo]((https://github.com/jaiderospina/ELECTIVA_HABILIDADES_PRAC_2025/blob/main/DOCKERLABS/images/ENTREGAS/DIEGO%20ESMERAL/AMOR.png)
+![Diagrama de Flujo](AMOR.png)
 
