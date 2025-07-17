@@ -1,6 +1,6 @@
 **Mayor DIEGO A. ESMERAL M.**
 
-![Diagrama de Flujo](AMOR.png)
+![Diagrama de Flujo](DiagrammeAMOR.png)
 
 # 🧪 Reto Amor - DockerLabs
 
@@ -20,16 +20,16 @@ Este repositorio documenta el desarrollo completo del laboratorio **Reto Amor** 
 
 ## 🔧 Herramientas Empleadas
 
-| Herramienta | Definición | Funcionalidad | Casos de uso |
+| HERRAMIENTA | DEFINICION | FUNCIONALIDAD | CASOS DE USO |
 |------------|------------|---------------|--------------|
-| **Docker** | Plataforma de contenedores para ejecutar aplicaciones en entornos aislados. | Simula entornos virtuales ligeros. | Laboratorios, CI/CD, microservicios. |
-| **scp** | Copia segura de archivos entre máquinas mediante SSH. | Transferencia recursiva de carpetas. | Envío de archivos/scripts entre hosts. |
-| **netdiscover** | Herramienta ARP para descubrir IPs activas. | Muestra IP, MAC y fabricante. | Reconocimiento de red local. |
-| **nmap** | Escáner de puertos y servicios. | Escaneo completo de red y servicios. | Pentesting, auditoría, fingerprinting. |
-| **gobuster** | Fuerza bruta de directorios web. | Descubre rutas y archivos ocultos. | Enumeración web ofensiva. |
-| **hydra** | Ataques de fuerza bruta contra servicios. | Prueba múltiples contraseñas/usuarios. | Auditoría de credenciales débiles. |
-| **steghide** | Esteganografía en imágenes/audio. | Extrae/oculta archivos en JPG/WAV. | CTF, forense, comunicaciones ocultas. |
-| **base64** | Codificación binaria a texto. | Decodifica datos encubiertos. | Mensajes ocultos, manipulación de datos. |
+| **DOCKER** | Plataforma de contenedores para ejecutar aplicaciones en entornos aislados. | Simula entornos virtuales ligeros. | Laboratorios, CI/CD, microservicios. |
+| **SCP** | Copia segura de archivos entre máquinas mediante SSH. | Transferencia recursiva de carpetas. | Envío de archivos/scripts entre hosts. |
+| **NETDISCOVER** | Herramienta ARP para descubrir IPs activas. | Muestra IP, MAC y fabricante. | Reconocimiento de red local. |
+| **NMAP** | Escáner de puertos y servicios. | Escaneo completo de red y servicios. | Pentesting, auditoría, fingerprinting. |
+| **GOBUSTER** | Fuerza bruta de directorios web. | Descubre rutas y archivos ocultos. | Enumeración web ofensiva. |
+| **HYDRA** | Herramienta de cracking para servicios remotos que permite ataques de fuerza bruta con múltiples protocolos. | Automatiza intentos de autenticación contra servicios como SSH, FTP, HTTP, RDP, etc. | Test de contraseñas débiles, auditoría de accesos, ejercicios de Red Team. |
+| **STEGHIDE** | Esteganografía en imágenes/audio. | Extrae/oculta archivos en JPG/WAV. | CTF, forense, comunicaciones ocultas. |
+| **BASE64** | Codificación binaria a texto. | Decodifica datos encubiertos. | Mensajes ocultos, manipulación de datos. |
 
 ---
 
@@ -71,8 +71,6 @@ cd /carlota/Desktop/fotos/vacaciones
 # 11. Descargar imagen a Kali
 scp carlota@172.17.0.2:/home/carlota/Desktop/fotos/vacaciones/imagen.jpg /home/kali/Documents/amor
 
-
-
 # 12. Extraer contenido oculto
 steghide extract -sf imagen.jpg
 
@@ -94,15 +92,3 @@ Obtener acceso SSH por fuerza bruta.
 Detectar archivo con datos esteganográficos.
 
 Decodificar contraseña y escalar privilegios a root.
-
-DIAGRAMA DE FLUJO
-
-
-
-![FOTO](https://github.com/jaiderospina/ELECTIVA_HABILIDADES_PRAC_2025/blob/main/DOCKERLABS/images/foto.jpg?raw=true)
-
-
-
-
-
-
