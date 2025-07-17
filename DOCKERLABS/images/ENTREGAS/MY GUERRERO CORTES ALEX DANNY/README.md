@@ -48,3 +48,7 @@
 | Comando | Desglose | Explicación | Variantes (si aplica) |
 |---------|----------|-------------|-----------------------|
 | `steghide extract -sf imagen.jpg` | `extract`: orden de extracción <br>`-sf imagen.jpg`: archivo de entrada | Extrae el contenido oculto en un archivo mediante esteganografía. | - `steghide embed -cf imagen.jpg -ef secreto.txt` (oculta un archivo) <br> - `steghide info imagen.jpg` (muestra info del contenedor) <br> - `steghide --help` (ayuda) |
+
+3. Realice un diagrama de flujo de todo el procedimiento realizado.
+
+
