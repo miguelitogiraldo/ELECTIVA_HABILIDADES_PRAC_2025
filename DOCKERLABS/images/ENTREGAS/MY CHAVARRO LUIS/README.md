@@ -44,3 +44,5 @@ Se abrio en el navegador: http://172.17.0.2
 
  🔹 DIAGRAMA
  
+ ![Descripción](Imagen%201.jpg)
+ 
