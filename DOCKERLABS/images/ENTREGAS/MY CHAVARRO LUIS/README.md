@@ -43,6 +43,7 @@ Se abrio en el navegador: http://172.17.0.2
 | base64 | Método de codificación de datos que convierte binarios en texto ASCII legible. | Codifica/decodifica datos para transferencia segura o almacenamiento textual. | Decodificación de mensajes, análisis forense, manipulación de archivos en texto plano. |
 
  🔹 DIAGRAMA
+
+ ![Descripción](IMAGENES/Imagen%201.jpg)
  
- ![Descripción](Imagen%201.jpg)
  
