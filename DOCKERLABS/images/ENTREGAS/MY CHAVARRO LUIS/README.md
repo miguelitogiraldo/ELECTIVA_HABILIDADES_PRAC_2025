@@ -2,32 +2,33 @@
 
 🔹 DESCRIPCION DEL LABORATORIO
 
-1. Se copio el laboratorio a Kali
+Se copio el laboratorio a Kali
 
-2. Se instalar Docker
+Se instala Docker
 
-3. Se desplego el laboratorio - maquina vulnerable
+Se desplego el laboratorio - maquina vulnerable
 
-cuando se logro identificar nuestra red pasamos a escanear la IP con Nmap. Esto nos dio la información de los puertos que estaban abiertos.
+Cuando se logro identificar nuestra red pasamos a escanear la IP con Nmap. Esto nos dio la información de los puertos que estaban abiertos.
 
-6. Se exploro el puerto 80, esto nos arrojo la IP.
+Se exploro el puerto 80, esto nos arrojo la IP.
+
 Se abrio en el navegador: http://172.17.0.2
 
-8. Pasamos al Fuzzing con Gobuster
+Pasamos al Fuzzing con Gobuster
 
-9. Efectuamos la conexion por SSH.
+Efectuamos la conexion por SSH.
 
-10. Se identifico el archivo oculto
+Se identifico el archivo oculto
 
-11. Descargamos la imagen al host
+Descargamos la imagen al host
 
-12. Identificamos el tipo de archivo
+Identificamos el tipo de archivo
 
-13. se realizo la prueban de esteganografía
+Se realizo la prueban de esceganografía
 
-14. Decodificamos la contraseña
+Decodificamos la contraseña
 
-15. Finalmente se escalaron privilegios.
+Finalmente se escalaron privilegios.
 
 
 🔹 CUADRO DE HERRAMIENTAS EMPLEADAS
