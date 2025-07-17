@@ -139,4 +139,4 @@ extract: modo extracción.
 
 3. Realice un diagrama de flujo de todo el procedimiento realizado.
 
-![Descripción](imagen/Diagrama%20de%20flujo%20.jpg)
+![Descripción](imagen/Diagrama%20de%20flujo.jpg)
