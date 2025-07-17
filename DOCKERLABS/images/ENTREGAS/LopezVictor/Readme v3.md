@@ -1,4 +1,5 @@
-#**Taller Individual: Análisis del Laboratorio DockerLabs - "Reto Amor"**
+#
+**Taller Individual: Análisis del Laboratorio DockerLabs - "Reto Amor"**
 
 ## <h5> 1. Cuadro Comparativo de Herramientas Empleadas <h5>
 | **Herramienta** | **Definición** | **Funcionalidad Principal** | **Casos de Uso Comunes** |
