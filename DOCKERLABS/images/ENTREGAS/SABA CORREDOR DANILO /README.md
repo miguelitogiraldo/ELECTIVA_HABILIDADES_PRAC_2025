@@ -24,6 +24,8 @@ DOKER IMAGEN: Lista de imagenes descargadas
 
 DOKER RMI: Elimina una imagen
 
+![Herramientas Utilizadas](Image/1.png)
+
 2.2. COMANDO: NETDISCOVER -i eth0 -r 172.17.0.0/16
 
 Descripción: Escaneo ARP para encontrar dispositivos en la red 172.17.0.0/16 usando la interfaz eth0.
