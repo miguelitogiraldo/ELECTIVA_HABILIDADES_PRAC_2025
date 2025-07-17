@@ -136,7 +136,7 @@ whoami
 
 ## 🔄 Diagrama de Flujo del Procedimiento
 
-![Diagrama de Flujo del CTF]()
+![Diagrama de Flujo del CTF](flujo_reto_amor.png)
 
 ---
 
