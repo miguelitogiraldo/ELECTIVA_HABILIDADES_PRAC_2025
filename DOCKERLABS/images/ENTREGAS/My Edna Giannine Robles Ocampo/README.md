@@ -138,3 +138,5 @@ extract: modo extracción.
     steghide extract -sf imagen.jpg -p password
 
 3. Realice un diagrama de flujo de todo el procedimiento realizado.
+
+![Descripción](imagen/Diagrama%20de%20flujo%20.jpg)
