@@ -6,7 +6,7 @@
 
 3.Realice un diagrama de flujo de todo el procedimiento realizado.
 
-**Desarrollo**
+## **Desarrollo**
 
 ## 1. Herramientas Utilizadas
 
