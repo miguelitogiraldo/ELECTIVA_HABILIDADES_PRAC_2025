@@ -93,5 +93,5 @@ Decodificar contraseña y escalar privilegios a root.
 
 DIAGRAMA DE FLUJO
 
-![texto](ruta)
+![Diagrama de Flujo](Diagramme%20AMOR.png)
 
