@@ -91,13 +91,10 @@ Detectar archivo con datos esteganográficos.
 
 Decodificar contraseña y escalar privilegios a root.
 
-📁 Estructura del Repositorio
+DIAGRAMA DE FLUJO
 
-amor/
-├── auto_deploy.sh
-├── amor.tar
-├── imagen.jpg
-├── secret.txt
-├── README.md
-└── diagramas/
-    └── flujo_reto_amor.png
+<p align="center">
+  <img src="ELECTIVA_HABILIDADES_PRAC_2025/DOCKERLABS/images/ENTREGAS/DIEGO%20ESMERAL/Diagramme%20AMOR.png" width="600"/>
+</p>
+
+
