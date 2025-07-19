@@ -111,37 +111,3 @@ steghide extract -sf imagen.jpg
 ## 3. 🔁 Diagrama de Flujo del Procedimiento
 
 ![Descripción](imagen/DIAGRAMA.jpg)
-
-```plaintext
-Inicio
-  │
-  ▼
-Despliegue de Docker
-  │
-  ▼
-Ejecución del contenedor con laboratorio
-  │
-  ▼
-Exploración de red con ARP-scan
-  │
-  ▼
-Identificación de servicios con Nmap
-  │
-  ▼
-Ataque de fuerza bruta con Hydra
-  │
-  ▼
-Acceso al sistema y descarga de archivo sospechoso
-  │
-  ▼
-Análisis con file
-  │
-  ▼
-Extracción de datos con steghide
-  │
-  ▼
-Hallazgo de bandera (flag)
-  │
-  ▼
-Fin
-
