@@ -110,6 +110,8 @@ steghide extract -sf imagen.jpg
 
 ## 3. 🔁 Diagrama de Flujo del Procedimiento
 
+![Descripción](imagen/DIAGRAMA.jpg)
+
 ```plaintext
 Inicio
   │
