@@ -33,7 +33,10 @@ docker run -it raelize/docker-labs
   - `docker run -d`
   - `docker exec -it <id> /bin/bash`
 
-
+| Comando | Explicación |
+|--------|-------------|
+| `docker pull raelize/docker-labs` | Descarga la imagen del laboratorio 'docker-labs' desde Docker Hub para su posterior ejecución. |
+| `docker run -it raelize/docker-labs` | Ejecuta la imagen descargada en modo interactivo, abriendo una terminal dentro del contenedor. |
 
 ### 🔹 ARP-scan
 
@@ -45,7 +48,9 @@ arp-scan --interface=eth0 --localnet
   - `arp-scan --ignoredups`
   - `arp-scan -l`
 
-
+| Comando | Explicación |
+|--------|-------------|
+| `arp-scan --interface=eth0 --localnet` | Escanea la red local en la interfaz eth0 para descubrir hosts activos usando paquetes ARP. |
 
 ### 🔹 Nmap
 
@@ -57,7 +62,9 @@ nmap -sV 127.0.0.1
   - `nmap -p 80,443`
   - `nmap -O`
 
-
+| Comando | Explicación |
+|--------|-------------|
+| `nmap -sV 127.0.0.1` | Realiza un escaneo al localhost detectando versiones de servicios disponibles en los puertos abiertos. |
 
 ### 🔹 Hydra
 
@@ -69,7 +76,9 @@ hydra -l admin -P rockyou.txt 127.0.0.1 http-get /login
   - `hydra -t 4`
   - `hydra -V`
 
-
+| Comando | Explicación |
+|--------|-------------|
+| `hydra -l admin -P rockyou.txt 127.0.0.1 http-get /login` | Lanza un ataque de fuerza bruta con usuario 'admin' y el diccionario 'rockyou.txt' sobre un servicio HTTP. |
 
 ### 🔹 file
 
@@ -81,7 +90,9 @@ file imagen.jpg
   - `file -i archivo`
   - `file -b archivo`
 
-
+| Comando | Explicación |
+|--------|-------------|
+| `file imagen.jpg` | Identifica el tipo y formato de archivo de 'imagen.jpg', útil para detectar si esconde otros datos. |
 
 ### 🔹 steghide
 
@@ -93,7 +104,9 @@ steghide extract -sf imagen.jpg
   - `steghide embed -cf cover.jpg -ef secreto.txt`
   - `steghide extract -sf imagen.jpg -p "clave"`
 
-
+| Comando | Explicación |
+|--------|-------------|
+| `steghide extract -sf imagen.jpg` | Extrae datos ocultos en la imagen mediante esteganografía si el archivo fue previamente modificado con steghide. |
 
 ## 3. 🔁 Diagrama de Flujo del Procedimiento
 
